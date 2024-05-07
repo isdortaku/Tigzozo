@@ -34,6 +34,9 @@ body {
   background-color: black;
   color: white;
 }
+.dark-mode .nav-bar a {
+  color: white;
+}
 
 .main-nav {
   padding: 20px;
