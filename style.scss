@@ -39,14 +39,52 @@ body {
   .dark-mode {
     background-color: black;
     color: white;
+    transition: background-color .4s ease;
 
-    .nav-bar{
-        a{
+
+        .dark-mode .nav-bar a{
             color: white;
         }
+
+         .nav-bar .super {
+            color: white;
+        }
+
+        // .row {
+        //     --bs-gutter-x: 0.5rem;
+        //     --bs-gutter-y: 0;
+        //     display: flex;
+        //     flex-wrap: wrap;
+        //     margin-top: calc(var(--bs-gutter-y)* -1);
+        //     margin-right: calc(var(--bs-gutter-x)* -.5);
+        //     margin-left: calc(var(--bs-gutter-x)* -.5);
+        // }
+      
+     .dark-mode .nav-bar a  {
+            color: #742296;
+        }
+
+        .nav-bar a{
+     color: white;
+           }
+
+
+    .banner .text h1{
+        color: white;
     }
+
+    .banner .fill p:last-of-type {
+        color: white;
+    }
+
+  i{
+  color: white;
+
   }
 
+
+  
+}
 
 .main-nav{
     padding: 20px;
@@ -67,6 +105,18 @@ body {
         justify-content: space-around;
         align-items: center;
         margin-right:160px;
+
+        .now{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            i{
+              font-size: 18px;
+            }
+
+
+        }
 
     
       i{
@@ -160,24 +210,26 @@ body {
     .text{
     position: relative;
     top :60px;
-    }
- 
+
     h1{
         font-size:48px ;
         font-family: "JosefinSans-Regular";
         font-weight: bolder;
         color: #000;
         font-weight: 700;
-        margin-top: 35px;
+        margin-top: 45px;
+        line-height: 1.1;
        
     }
 
     p{
         font-size: 23px;
         font-family: "JosefinSans-Regular";
+        font-weight: 580;
         line-height: 1.4;
-        padding-top: 10px;
+        padding-top: 6px;
         padding-bottom: 10px;
+        line-height: 1.1;
 
     }
 
@@ -188,7 +240,7 @@ body {
         text-decoration: none;
         font-family: "JosefinSans-Regular";
         font-size: 16px;
-        padding: 10px 16px;
+        padding: 10px 17px;
         
     }
 
@@ -200,7 +252,7 @@ body {
         font-family: "JosefinSans-Regular";
         font-weight: bold;
         font-size: 17px;
-        padding: 7px 3px;
+        padding: 7px 4px;
         border-left: 6px solid #742296;
         border-right: 6px solid #742296;
         border-bottom: 3px solid #742296;
@@ -209,6 +261,9 @@ body {
         
     }
 
+    }
+ 
+   
 
     img{
     width: 180px;
@@ -221,7 +276,7 @@ body {
 
     .image-life{
         display: flex;
-        justify-content: baseline;
+        // justify-content: baseline;
 
         .pic1, .pic3{
             margin-top: 56px;
@@ -229,63 +284,64 @@ body {
       
     }
 
-  .fill{
 
-       span{
-
-        font-family: "GothamBook";
-        margin: 15px 0 0 0;
-        font-weight: bolder;
-        font-size: 16px;
-        padding-top: 10px;
-
-      }
-
-
-    p{
-        font-family: "GothamBook";
-        margin: 15px 0 0 0;
-        color:#742296;
-        font-weight: bolder;
-        font-size: 17px;
-        padding-top: 6px;
-
-        i{
-            font-size: 24px;
-            padding-bottom: 15px;
-        }
-         
+    .zim{
+        padding-bottom: 1rem;
     }
 
-    span{
-        margin: 15px 0 0 0;
-        font-weight: bolder;
+  .fill{
+     
+
+        p:first-of-type {
+            margin: 10px 0 0 0;
+            color:#742296;
+            font-family: "JosefinSans-Regular";
+            font-size: 18px;
+
+            display: flex;
+            align-items: center;
+         
+             
+        }
+    
+        i{
+            color: #000;
+            padding: 0  10px 0 0;
+            font-size: 28px;
+        }
+
+
+    p:last-of-type  {
+        margin: 5px 0 0 0;
+       
         color:#000;
         font-family: "JosefinSans-Regular";
         font-size: 17px;
-         
+
+        display: flex;
+        align-items: end;
+          
     }
 
+    
     i{
-        color: black;
-        padding: 0  10px 0 0;
-        font-size: 24px;
+        font-size: 26px;
+        font-weight: 100;
     }
-
 }
 
 }
 
 
 .about{
-    padding: 100px 65px;
+    padding: 70px  65px;
     
 
 h2{
-    font-size: 24px;
+    font-size: 26px;
     font-family: "JosefinSans-Regular";
     font-weight: bolder;
-    padding-bottom: 30px;
+    padding-bottom: 26px;
 }
 
 
@@ -294,6 +350,9 @@ h2{
     justify-content: center;
     align-items: center;
   
+    .rong{
+        margin-left: -19px;
+    }
 
  
     .gallery{
@@ -317,7 +376,8 @@ h2{
         p{
             font-family: "JosefinSans-Regular";
             font-size: 16px;
-            margin-bottom: 13px;
+            margin-bottom: 10px;
+            font-weight: 580;
         }
         
     
@@ -335,13 +395,14 @@ h2{
        
      .deep{
         height: 6vh;  
+        border-radius: 28%;
     }
 
     }
 
 
      .gun{
-        padding-left: 25px;
+        padding-left: 33px;
 
 
         .nato{
@@ -349,10 +410,20 @@ h2{
            
          }
 
+         .nato:before {
+
+            content: "";
+            position: absolute;
+            left: 0; right: 0;
+            top: 0; bottom: 0;
+            background: rgba(0,0,0,.5);
+
+          }
 
       p{
-        padding-top: 13px ;
-        padding-bottom: 32px;
+        padding-top: 15px ;
+        padding-bottom: 29px;
+        font-weight: 590;
      }
 
      
@@ -363,7 +434,7 @@ h2{
         text-decoration: none;
         font-family: "JosefinSans-Regular";
         font-size: 16px;
-        padding: 12px 16px;
+        padding: 12px 17px;
      }
 
 
@@ -384,7 +455,7 @@ h2{
 
  
     h2{
-       font-size: 24px;
+       font-size: 22px;
        padding-bottom: 30px;
        font-family: "JosefinSans-Regular";
        font-weight: bolder;
@@ -397,22 +468,29 @@ h2{
     }
 
 
-
+    .now:before {
+        content: "";
+        position: absolute;
+        left: 0; right: 0;
+        top: 0; bottom: 0;
+        background: rgba(0,0,0,.5);
+      }
+      
     .now{
         background-image: url(images/WhatsApp\ Image\ 2024-05-03\ at\ 00.13.55.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 24%;
+        width: 26.7%;
         height: 78vh;
         position: relative;
         
 
-   
+       
 
         .good{
 
             height: 78vh;
-            width:100%;
+            width:100.4%;
             display: flex;
             align-items: end;
             justify-content:end ;
@@ -433,8 +511,8 @@ h2{
                 color: white;
                 font-family: "JosefinSans-Regular";
                 font-weight: bolder;
-                padding-right: 40px;
-                margin-bottom: 5px;
+                padding-right: 53px;
+                margin-bottom: 0px;
             }
     
         }
@@ -445,19 +523,21 @@ h2{
        
    
     .super{
-        margin: 0 20px;
+        margin: 0 23px;
         background-color: #742296;
         color: white;
-        width: 24%;
+        width: 26.6%;
         height: 78vh;
         padding: 20px 15px;
         position: relative;
+
+
     
 
         .more{
 
-            height: 74.8vh;
-            width:96%;
+            height: 74.9vh;
+            width:96.92%;
             display: flex;
             align-items: end;
             justify-content:end ;
@@ -466,36 +546,54 @@ h2{
               
          img{
             object-fit: contain;
-            width: 13%;
-            height: 6vh;
+            width: 13.9%;
+            height: 6.4vh;
             opacity: 70%;
             margin-right:3.2px;
          
          }
     
 
+
         }
 
 
       h3{
-        font-size: 16px;
+        font-size: 18px;
         font-family: "JosefinSans-Regular";
-        font-weight: bolder;
+        margin-left: 4px;
         
       }
 
       li{
-        font-size: 16px;
-        padding: 8px;
+     
+        font-size: 17px;
+        padding: 0px;
+
+  
+
+      }
+
 
     
 
+
+      h4 {font-size: 18px;font-weight:400;
+
+
+        .line{
+            background-color: #f1f1f1;
+            width: 70px;
+            border: 1px solid white;
+            margin-left: -15px;
+            margin-bottom: 8px;
+           
+    
+        }
+       
       }
 
-      li:first-child {
-        text-decoration: underline 2px solid white ;
-        font-size: 17px;
-      }
+  
 
 
     }
@@ -506,15 +604,35 @@ h2{
         background-image: url(images/WhatsApp\ Image\ 2024-05-03\ at\ 00.13.57\ \(1\).jpeg);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 24%;
+        width: 26.7%;
         height: 78vh;
         position: relative;
 
+      
+
     }
+
+    // .foni:before {
+    //     content: attr(class);
+    //     // font-size: 2em;
+    //     color: white;
+    //     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    //   }
+
+   
+      .foni:before {
+        content: "";
+        position: absolute;
+        left: 0; right: 0;
+        top: 0; bottom: 0;
+        background: rgba(0,0,0,.5);
+      }
+
+   
 
     .bad{
         height: 78vh;
-        width:100%;
+        width:100.4%;
         display: flex;
         align-items: end;
         justify-content:end ;
@@ -535,8 +653,8 @@ h2{
                 color: white;
                 font-family: "JosefinSans-Regular";
                 font-weight: bolder;
-                padding-right: 40px;
-                margin-bottom: 17px;
+                padding-right: 70px;
+                margin-bottom: 6px;
 
             }
 
@@ -544,66 +662,109 @@ h2{
 }
 }
 
+
 .main{
-    padding: 60px 0 0 65px  ;
+       padding: 60px 65px 0 65px  ;
+     
 
-    .more{
-    
-    display: flex;
-    justify-content: center;
-
-    .very{
-        margin-right: 70px;
-    }
-   
-    
-    }
-
-    img{
-        height: 45vh;
-        width: 100%;
-        object-fit: cover;
-      
-    }
-
-    p{
-        font-size: 14px;
-        font-family: "JosefinSans-Regular";
-        margin: 15px 0;
-    }
-
-
-    h3{
-        font-size: 18px;
-        margin: 15px 0;
-        font-family: "JosefinSans-Regular";
-        font-weight: bolder;
-    }
-
-    span{
-       font-size: 14.3px;
-       font-family: "JosefinSans-Regular";
-        margin: 15px 0;
-    }
-
-    h2{
-        font-size: 24px;
+            h2{
+        font-size: 21px;
         font-family: "JosefinSans-Regular";
         font-weight: bolder;
         margin-bottom: 0;
        
     }
 
-    .food{
-        margin-top: 45px;
+
+    .get{
+        display: flex;
+        justify-content: center;
+      
+        
+.very {
+
+    margin: 53px 40px 0 0px;
+
     }
 
-    .find{
-        margin-top: -11px;
+    .name {
+    
+    margin: -14px 0px 0 40px;
+   
+    }
+        
+
+        .kim2{
+            display: flex;
+            justify-content: flex-end;
+            align-items: end;
+            background-image: url("images/WhatsApp Image 2024-05-02 at 07.24.17 (1).jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            object-fit: contain;
+            width: 407px;
+            height: 56vh;
+
+            .late{
+                object-fit: contain;
+                width: 9.3%;
+                height: 6vh;
+                margin-left: 20PX;
+            }
+        }
+
+        .kim1{
+            display: flex;
+            justify-content: flex-end;
+            object-fit: contain;
+            align-items: end;
+            background-image: url("images/WhatsApp Image 2024-05-02 at 07.24.13.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 407px;
+            height: 56vh;
+
+            .visa{
+                
+                object-fit: contain;
+                width: 9.3%;
+                height: 6vh;
+                margin-left: 20PX;
+            }
+        }
+
+
+    p:first-of-type {
+
+        font-family: "JosefinSans-Regular";
+        font-weight: 500;
+        margin: 15px 0;
+
+    }
+
+p{
+
+        font-size: 18px;
+        font-family: "JosefinSans-Regular";
+        font-weight: 550;
+        margin: 15px 0;
+
+}
+  
+    h3{
+        font-size: 20px;
+        margin: 15px 0;
+        font-family: "JosefinSans-Regular";
+        font-weight: bolder;
     }
 
    
+
+    }
+
+
 }
+
 
 
 
@@ -618,6 +779,7 @@ h2{
 
         span{
             font-family: "GreatVibes-Regular-webfont";
+            font-weight: 400;
             
         }
     }
@@ -686,15 +848,44 @@ h2{
     }
 
     h6{
-        text-decoration: underline;
         font-family: "JosefinSans-Regular";
         font-weight: bolder;
+        margin-bottom: 0;
+        font-size: 20px;
     }
+
+    .line3{
+        background-color: #f1f1f1;
+        width: 84px;
+        border: 1px solid white;
+        margin-bottom: 10px;
+
+    }
+
+
+    .line4{
+        background-color: #f1f1f1;
+        width: 115px;
+        border: 1px solid white;
+        margin-bottom: 10px;
+
+    }
+
+    .line5{
+        background-color: #f1f1f1;
+        width: 115px;
+        border: 1px solid white;
+        margin-bottom: 10px;
+
+    }
+
+    
+
 
     p{
           
       font-family: "JosefinSans-Regular";
-      font-size: 18px;
+      font-size: 20px;
       margin-bottom: 15px;
     }
 
@@ -718,7 +909,11 @@ h2{
 
 }
 
-
+.for3{
+    p:last-of-type {
+        font-size: 22px;
+    }
+}
 .forth{
     i{
         font-size: 20px;
@@ -728,7 +923,7 @@ h2{
 
 }
 
-@media  (min-width: 992px)  and (max-width:1034px){
+@media only screen and (min-width: 992px)  and (max-width:1024px) {
 
 
     .main-nav{
@@ -744,12 +939,13 @@ h2{
     
         .nav-bar{
            
-            margin-right:160px;
+           margin-right: 114px;
     
         
             img{
                 padding-left: 85px;
-                width: 22%;
+                width: 26%;
+         
             }
 
         }
@@ -768,14 +964,15 @@ h2{
 .banner{
     padding: 5px 0px 30px 65px;
 
- 
-    h1{
-        font-size:30px ;
+ .text{
+  h1{
+        font-size:31px ;
         margin-top: 25px;
        
     }
 
     p{
+       
         font-size: 14px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -797,7 +994,7 @@ h2{
         
     }
 
-
+ }
     img{
     width: 130px;
     height: 26vh;
@@ -819,42 +1016,79 @@ h2{
 
 
 
-  .fill{
+//   .fill{
 
-       span{
-        margin: 15px 0 0 0;
-        font-size: 14px;
-        padding-top: 10px;
+//        span{
+//         margin: 15px 0 0 0;
+//         font-size: 14px;
+//         padding-top: 10px;
 
-      }
+//       }
 
 
-    p{
-        margin: 15px 0 0 0;
-        font-size: 14px;
-        padding-top: 6px;
+//     p{
+//         margin: 15px 0 0 0;
+//         font-size: 14px;
+//         padding-top: 6px;
 
-        i{
-            font-size: 24px;
-            padding-bottom: 15px;
-        }
+//         i{
+//             font-size: 24px;
+//             padding-bottom: 15px;
+//         }
          
-    }
+//     }
 
-    span{
-        margin: 15px 0 0 0;
-        font-size: 14px;
+//     span{
+//         margin: 15px 0 0 0;
+//         font-size: 14px;
+         
+//     }
+
+//     i{
+//         color: black;
+//         padding: 0  10px 0 0;
+//         font-size: 24px;
+//     }
+
+// }
+
+
+.fill{
+     
+
+    p:first-of-type {
+        margin: 10px 0 0 0;
+        
+        font-size: 15px;
+
+        display: flex;
+        align-items: center;
+     
          
     }
 
     i{
-        color: black;
+        color: #000;
         padding: 0  10px 0 0;
-        font-size: 24px;
+        font-size: 28px;
     }
 
+
+p:last-of-type  {
+    margin: 5px 0 0 0;
+   
+   
+    font-size: 15px;
 }
 
+margin: 15px 0 0 0;
+
+i{
+    font-size: 26px;
+    font-weight: 100;
+}
+}
+ 
 
 }
     
@@ -867,6 +1101,7 @@ h2{
 .container{
     display: flex;
     flex-direction: column;
+    
   
 
  
@@ -909,7 +1144,7 @@ h2{
 
 
      .gun{
-        padding-left: 33px;
+        padding-left: 52px;
 
 
         .nato{
@@ -1031,9 +1266,14 @@ h2{
         
       }
 
+
+      h4{
+      font-size: 16px;
+      }
+
       li{
-        font-size: 16px;
-        padding: 5px;
+        font-size: 14px;
+        padding: 0px;
 
     
 
@@ -1086,113 +1326,48 @@ h2{
 
   
 }
+
+
+// start main
 }
 
-.main{
-    padding: 60px 0 0 65px  ;
+.main .get .name {
+    margin: -14px 0px 0 67px;
+}
 
-    .more{
-    
-    display: flex;
-    justify-content: center;
+.main .get .kim1 {
+  
+    width: 115%;
+    height: 24vh;
+}
 
-    .very{
-        margin-right: 70px;
-    }
-   
-    
-    }
+.main .get .kim2 {
 
     
-
-    p{
-        font-size: 13px;
-        margin: 15px 0;
-    }
-
-
-    h3{
-        font-size: 18px;
-        margin: 15px 0;
-
-    }
-
-    span{
-        font-size: 14.3px;
-        margin: 15px 0;
-    }
-
-    h2{
-        font-size: 22px;
-    
-    }
-
-    .food{
-        margin-top: 45px;
-    }
-
-    .find{
-        margin-top: -11px;
-    }
-
-   
+    width: 115%;
+    height: 24vh;
 }
 
 
+.main .get .kim1 .visa {
+    width: 9.3%;
+    height: 3vh;
+    margin-left: 20PX;
+}
 
+.main .get .kim2 .late {
+    width: 11.3%;
+    height: 3vh;
+    margin-left: 20PX;
+}
 
-.main{
-    padding: 60px 0 0 65px  ;
-
-    .more{
-
-    .very{
-        margin-right: 70px;
-    }
-   
-    
-    }
-
-    img{
-        height: 21vh;
-        width: 100%;
-       
-      
-    }
-
-    p{
-        font-size: 14px;
-        margin: 15px 0;
-    }
-
-
-    h3{
-        font-size: 18px;
-        margin: 15px 0;
-    
-    }
-
-    span{
-        font-size: 14.3px;
-        margin: 15px 0;
-    }
-
-    h2{
-        font-size: 21px;
-       
-    }
-
-    .food{
-        margin-top: 45px;
-    }
-
-
-   
+.main h2 {
+    font-size: 17px;
+    margin-bottom: 0;
 }
 
 
-
-
+// end main
 .instagram{
     padding: 30px;
 
@@ -1285,7 +1460,173 @@ h2{
 
 }
 
-@media   (min-width: 765px) and (max-width: 991.98px) {
+
+
+// @media   (min-width: 768px) and (max-width: 991.98px) {
+
+
+// .main-nav{
+//     padding: 20px;
+
+
+//     img{
+//         width: 21%;
+//         align-self: center;
+//         margin-left: 5px;
+        
+//     }
+
+//     .nav-bar{
+    
+//         margin-right:160px;
+
+    
+
+//         li{
+//             list-style: none;
+//             padding-left: 20px;
+
+         
+//         }
+
+//         img{
+//             padding-left: 58px;
+//             width: 28%;
+//         }
+//     }
+
+
+//     a{
+//         font-size: 15px;
+//         color:#000;
+//     }
+    
+   
+// }
+
+// .main-nav .nav-bar {
+//     margin-right: 64px;
+// }
+
+
+
+// .banner{
+//     padding: 5px 0px 30px 65px;
+    
+
+//       .text{
+//     top :60px;
+//     }
+ 
+//     h1{
+//         font-size:23px ;
+//         margin-top: 9px;
+       
+//     }
+
+//     p{
+//         font-size: 10px;
+//         line-height: 1.4;
+//         padding-top: 10px;
+//         padding-bottom: 10px;
+//         margin: 0;
+
+//     }
+
+
+//     .dis{
+
+//         font-size: 10px;
+//         padding: 9px 14px;
+        
+//     }
+
+    
+//     .kok{
+//         font-size: 10px;
+//         padding: 7px 3px;
+//         margin-left: 30px;
+        
+//     }
+
+
+//     }
+ 
+   
+
+    
+//     img{
+//     width: 98px;
+//     height: 27vh;
+//     padding-right: 13px;
+    
+        
+//     }
+
+//     .image-life{
+
+
+//         .pic1, .pic3{
+//             margin-top: 56px;
+//         }
+
+// }
+  
+
+//     .zim{
+//         padding-bottom: 1rem;
+//     }
+
+//   .fill{
+     
+
+//         p:first-of-type {
+//             margin: 10px 0 0 0;
+//             color:#742296;
+//             font-family: "JosefinSans-Regular";
+//             font-size: 18px;
+
+//             display: flex;
+//             align-items: center;
+         
+             
+//         }
+    
+//         i{
+//             color: #000;
+//             padding: 0  10px 0 0;
+//             font-size: 28px;
+//         }
+
+
+//     p:last-of-type  {
+//         margin: 5px 0 0 0;
+       
+//         color:#000;
+//         font-family: "JosefinSans-Regular";
+//         font-size: 17px;
+
+//         display: flex;
+//         align-items: end;
+          
+//     }
+
+    
+//     i{
+//         font-size: 26px;
+//         font-weight: 100;
+//     }
+// }
+
+// }
+
+
+
+// }
+
+
+
+@media   (min-width: 768px) and (max-width: 991.98px) {
 
 
     
@@ -1338,18 +1679,18 @@ h2{
 
     .text{
     top :60px;
-    }
+    
  
     h1{
-        font-size:23px ;
-        margin-top: 9px;
+        font-size:26px ;
+        margin-top: 15px;
        
     }
 
     p{
         font-size: 10px;
         line-height: 1.4;
-        padding-top: 10px;
+        padding-top: 0px;
         padding-bottom: 10px;
         margin: 0;
 
@@ -1367,11 +1708,53 @@ h2{
     .kok{
         font-size: 10px;
         padding: 7px 3px;
-        margin-left: 30px;
+        margin-left: 21px;
         
     }
 
+    
+  .fill{
+     
 
+    p:first-of-type {
+        margin: 10px 0 0 0;
+        color:#742296;
+        font-family: "JosefinSans-Regular";
+        font-size: 13px;
+
+        display: flex;
+        align-items: center;
+     
+         
+    }
+
+    i{
+        color: #000;
+        padding: 0  10px 0 0;
+        font-size: 22px;
+    }
+
+
+p:last-of-type  {
+    margin: 5px 0 0 0;
+   
+    color:#000;
+    font-family: "JosefinSans-Regular";
+    font-size: 12px;
+
+    display: flex;
+    align-items: end;
+      
+}
+
+
+i{
+    font-size: 22px;
+    font-weight: 100;
+}
+}
+
+    }
     img{
     width: 98px;
     height: 27vh;
@@ -1404,7 +1787,7 @@ h2{
     
         margin: 15px 0 0 0;
         font-size: 12px;
-        padding-top: 6px;
+        padding-top: 4px;
 
         i{
             font-size: 24px;
@@ -1539,8 +1922,8 @@ h2{
 
 
     .now{
-        width: 25%;
-        height: 24vh;
+        width: 33%;
+        height: 34vh;
         position: relative;
         
 
@@ -1548,7 +1931,7 @@ h2{
 
         .good{
 
-            height: 26vh;
+            height: 36vh;
             width:100%;
     
            
@@ -1559,7 +1942,7 @@ h2{
             object-fit: contain;
             margin-left: 20px;
             width: 13.6%;
-            height: 5.9vh;
+            height: 7vh;
          }
     
             h5{
@@ -1577,23 +1960,23 @@ h2{
    
     .super{
         margin: 0 20px;
-        width: 25%;
-        height: 24vh;
+        width: 33%;
+        height: 34vh;
         padding: 20px 15px;
         position: relative;
     
 
         .more{
 
-            height: 23.8vh;
-            width: 92%;
+            height: 33vh;
+            width: 94%;
            
 
               
          img{
             object-fit: contain;
             width: 13%;
-            height: 5.5vh;
+            height: 4.4vh;
             opacity: 70%;
             margin-right:3.2px;
          
@@ -1604,23 +1987,27 @@ h2{
 
 
       h3{
-        font-size: 13px;
+        font-size: 12px;
         
       }
 
       li{
         font-size: 10px;
-        padding: 2px;
+        padding: 0px;
         
 
+        .line{
+            width: 50px;
+          }
+    
     
 
       }
 
-      li:first-child {
-        text-decoration: underline 2px solid white ;
+      h4 {
         font-size: 10px;
       }
+
 
 
     }
@@ -1628,14 +2015,14 @@ h2{
 
     .foni{
        
-        width: 25%;
-        height:24vh;
+        width: 33%;
+        height: 34vh;
         position: relative;
 
     }
 
     .bad{
-        height: 26vh;
+        height: 36vh;
         width:100%;
    
         
@@ -1645,7 +2032,7 @@ h2{
             object-fit: contain;
             margin-left: 20px;
             width: 13.6%;
-            height: 6.1vh;
+            height: 6.9vh;
          }
     
             h5{
@@ -1661,63 +2048,136 @@ h2{
 
 }
 
-
-
-
-.main{
-    padding: 60px 0 0 47px  ;
-
-    .more{
-    
-   
-
-    .very{
-        margin-right: 70px;
-    }
-   
-    
-    }
-
-    img{
-        height: 21vh;
-        width: 100%;
-        object-fit: cover;
-      
-    }
-
-    p{
-        font-size: 11px;
-        margin: 11px 0;
-    }
-
-
-    h3{
-        font-size: 14px;
-        margin: 15px 0;
-       
-    }
-
-    span{
-        font-size: 13.3px;
-        margin: 15px 0;
-    }
-
-    h2{
-        font-size: 15px;
-        margin-bottom: 0;
-       
-    }
-
-    .food{
-        margin-top: 45px;
-    }
-
-    .find{
-        margin-top: -11px;
-    }
-
-   
+// main
+.main .get .kim1 {
+  
+    width: 320px;
+    height: 25vh;
 }
+
+.main .get .name {
+    margin: -5px 0px 0 9px;
+}
+
+.main .get .kim2 {
+
+    width: 320px;
+    height: 25vh;
+}
+
+.main .get p {
+    font-size: 16px;
+    font-weight: 550;
+    margin: 15px 0;
+}
+
+.main h2 {
+    margin-left: -20px;
+    font-size: 14px;
+    font-family: "JosefinSans-Regular";
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+
+
+.isdo .for3 p:last-of-type {
+    font-size: 11px;
+}
+
+
+.isdo .line4 {
+    background-color: #f1f1f1;
+    width: 82px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.isdo .line5 {
+    background-color: #f1f1f1;
+    width: 82px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.isdo .line3 {
+    background-color: #f1f1f1;
+    width: 62px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.main .get .kim1 .visa {
+    width: 10%;
+    height: 3vh;
+    margin-left: 20PX;
+}
+.about .container .gun a {
+    font-size: 13px;
+    padding: 11px 11px;
+}
+
+
+.main .get .kim2 .late{
+    width: 10%;
+    height: 3.0vh;
+    margin-left: 20PX;
+
+}
+// .main{
+//     padding: 60px 0 0 47px  ;
+
+//     .more{
+    
+   
+
+//     .very{
+//         margin-right: 70px;
+//     }
+   
+    
+//     }
+
+//     img{
+//         height: 21vh;
+//         width: 100%;
+//         object-fit: cover;
+      
+//     }
+
+//     p{
+//         font-size: 11px;
+//         margin: 11px 0;
+//     }
+
+
+//     h3{
+//         font-size: 14px;
+//         margin: 15px 0;
+       
+//     }
+
+//     span{
+//         font-size: 13.3px;
+//         margin: 15px 0;
+//     }
+
+//     h2{
+//         font-size: 15px;
+//         margin-bottom: 0;
+       
+//     }
+
+//     .food{
+//         margin-top: 45px;
+//     }
+
+//     .find{
+//         margin-top: -11px;
+//     }
+
+   
+// }
 
 
 
@@ -1728,12 +2188,15 @@ h2{
        font-size:17px;
     }
 
+
+    
+    
     .demo{
 
         img{
-            width: 12%;
-            height: 21vh;
-            padding: 5px;
+            width: 18%;
+        height: 23vh;
+        padding: 5px;
         }
         padding: 30px;
     }
@@ -1821,101 +2284,151 @@ h2{
 
 }
 
-
 @media (max-width: 575.98px) { 
-    
-.main-nav{
-    padding: 20px 0 0 0;
-    display: flex;
-   
 
-
-    img{
-        margin-left: 6px;
-        height: 7vh;
-        width: 28%;
-        
+    .main-nav .nav-bar {
+        margin-right: 0px;
     }
 
-    .nav-bar{
-     
-        margin-right:160px;
+
+    .main-nav{
+        padding: 20px 0 0 0;
+        
+    
+        img{
+            height: 7vh;
+            width: 100%;
+            object-fit: contain;
+            margin-left: -5px;
+            
+        }
+    
+        .nav-bar{
+            margin-right:160px;
+    
+    
+    
+        
+          a{
+            display: none;
+          }
+    
+          i{
+            display: none;
+          }
       
 
-  
-
-        li{
-            list-style: none;
-            padding-left: 10px;
-            
-
-         
-         
+            img{
+                padding-left: 0px;
+                width: 43%;
+                display: none;
+                object-fit: contain;
+            }
         }
+    
+    
+    
+        
+    
+    
+        
+        
+    .overlay { 
+        height: 100%;
+        width: 0;
+        position: fixed; 
+        z-index: 1; 
+        right: 0px;
+        top: 0;
+        background-color:#FEFDED; 
+     
+        overflow-x: hidden; 
+        transition: 0.5s; 
+        display: flex;
+    
+      }
+      
+    .hero{
+        position: absolute;
+        top: 54px;
+        right: 143px;
+        
+    }
+      span{
+        margin: auto;
+        margin-right: 20px;
+        display: flex;
+      
+      
+      }
+      
+      .overlay-content {
+        position: absolute;
+        top: 25%; 
+        width: 100%; 
+        text-align: center; 
+        margin-top: 30px; 
+       
+        
+      }
+      
+    
+      .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: #000;
+        display: block; 
+        transition: 0.3s; 
+      }
 
-        img{
-            padding-left: 0px;
-            width: 43%;
-            height: 3vh;
+
+    //   burger menu
+      .main-nav .overlay .closebtn {
+        position: absolute;
+        top: -33px;
+        right: 8px;
+        font-size: 60px;
+    }
+
+      
+      
+      .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+      }
+      
+      
+      .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+      }
+    }
+    
+
+    .banner{
+        padding: 5px 0px 30px 12px;
+        
+    
+        .text{
+        position: relative;
+        top :60px;
+    
+        h1{
+            margin-top: -30px;
+            font-size: 29px;
            
         }
-    }
-
-
-    a{
-     display: none;
-    }
+    
+        p{
+            font-size: 13px;
+            padding-top: 6px;
+            padding-bottom: 0px;
+        }
     
     
-}
-
-
-.banner .image-life .pic3 {
-    margin-top: 28px;
-}
-
-.banner .image-life .pic1 {
-    margin-top: 28px;
-}
-
-
-
-.banner{
-    padding: 0px 0px 0px 19px;
-     display: flex;
-     flex-direction: column;
-    
- 
-    .zim{
-        display: flex;
-        justify-content: center;
-    }
-
-    .text{
-   
-    top :20px;
-    }
- 
-    h1{
-        font-size:16px ;
-        margin-top: 0px;
-        margin-bottom: 7px;
-        text-align: center;
-       
-    }
-
-    p{
-        font-size: 15px;
-        line-height: 1.4;
-        padding-top: 0px;
-        padding-bottom: 10px;
-        margin: 0;
-        text-align: center;
-
-    }
-
-
-    .dis{
+           .dis{
         font-size: 10px;
         padding: 7px 12px;
         
@@ -1929,87 +2442,80 @@ h2{
         
     }
 
-
-    img{
-   padding: 30px 0;
-   width: 84px;
-   height: 38vh;
-   object-fit: cover;
-
-    }
     
-    .image-life{
-       padding: 0;
-       margin: 0;
-        
-    }
-
-
-   .pic1, .pic3 {
-    margin-top: 28px;
-   }
-
-
-    
-
-  .fill{
-
-    display: flex;
-    justify-content: center;
-       span{
-
-        margin:0;
-        font-size: 9px;
-        padding-top: 10px;
-
-      }
-
-
-    p{
-    
-        margin: 0;
-        font-size: 9px;
-        padding-top: 10px;
-       
-
-        i{
-            font-size: 20px;
-            padding-bottom: 10px;
-            display: none;
         }
+     
+       
+    
+        img{
+            width: 122px;
+            height: 42vh;
+        object-fit: cover;
+        padding-right: 13px;
+        
+            
+        }
+    
+        .image-life{
+            display: flex;
+            padding-top: 75px;
+    
+            .pic1, .pic3{
+                margin-top: 30px;
+            }
+
+            .pic4{
+                display: none;
+            }
+          
+        }
+    
+    
+        .zim{
+            padding-bottom: 0;
+        }
+    
+      .fill{
          
+    
+            p:first-of-type {
+                margin: 10px 0 0 0;
+                font-size: 12px;
+    
+            }
+        
+            i{
+                color: #000;
+                padding: 0  10px 0 0;
+                font-size: 28px;
+            }
+    
+    
+        p:last-of-type  {
+            margin: 5px 0 0 0;
+            font-size: 11px;
+              
+        }
+    
+        
+        i{
+            font-size: 18px;
+            font-weight: 100;
+        }
+    }
+    
     }
 
-    i{
-        display: none;
-    }
+
+
 
     
-
-    span{
-        margin: px 0 0 0;
-        font-size: 9px;
-      
-         
-    }
-
-    i{
-        color: black;
-        padding: 0  10px 0 0;
-        font-size: 24px;
-    }
-
-}
-
-}
-
-
 .about{
     padding: 10px 12px;
     
 
 h2{
-    font-size: 15px;
+    font-size: 20px;
     padding-bottom: 8px;
     text-align: center;
     margin-left: 2px;
@@ -2043,9 +2549,9 @@ h2{
     }
 
         p{
-            font-size: 10px;
+            font-size: 14px;
             margin-bottom: 17px;
-            text-align: center;
+         
         }
         
     
@@ -2086,7 +2592,7 @@ h2{
         padding-top: 13px ;
         padding-bottom: 16px;
         margin: 0;
-        font-size: 10px;
+        font-size: 15px;
      }
 
      
@@ -2108,124 +2614,294 @@ h2{
 
 }
 
-
+ 
 
 
 .main{
-    padding: 30px 0 0 0px  ;
-
-    .more{
-    
-    
-
-    .very{
-        margin-right: 20px;
-    }
+    padding: 60px 65px 0 12px  ;
+  
+h2{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-left: 44px;
+}
+ .get{
+     display: flex;
+     flex-direction: column;
    
-    
-    }
-
-    img{
-        height: 19vh;
-        width: 100%;
      
-      
-    }
+.very {
 
-    p{
-        font-size: 8px;
-        margin: 3px 0;
-    }
+ margin: 53px 40px 0 0px;
+
+ }
+
+ .name {
+ 
+ margin: -14px 0px 0 40px;
+
+ }
+     
+
+     .kim2{
+        margin-top: 20px;
+         margin-left: -40px;
+         display: flex;
+         justify-content: flex-end;
+         align-items: end;
+         background-image: url("images/WhatsApp Image 2024-05-02 at 07.24.17 (1).jpeg");
+         background-repeat: no-repeat;
+         background-size: cover;
+         object-fit: contain;
+         width: 351px;
+         height: 43vh;
 
 
-    h3{
-        font-size: 13px;
-        margin: 3px 0;
-        
-    }
+         .late{
+             object-fit: contain;
+             width: 9.3%;
+             height: 5.0vh;
+             margin-left: 20PX;
+         }
+     }
 
-    span{
-        font-size: 9.3px;
-        margin: 2px 0;
-    }
+     .kim1{
+         display: flex;
+         justify-content: flex-end;
+         object-fit: contain;
+         align-items: end;
+         background-image: url("/images/WhatsApp Image 2024-05-02 at 07.24.13.jpeg");
+         background-repeat: no-repeat;
+         background-size: cover;
+         width: 351px;
+         height: 43vh;
 
-    h2{
-        font-size: 15px;
-        margin-bottom: 10px;
-        text-align: center;
-       
-    }
+         .visa{
+             
+             object-fit: contain;
+             width: 9.3%;
+             height: 5.0vh;
+             margin-left: 20PX;
+         }
+     }
 
-    .food{
-        margin-top: 10px;
-    }
 
-    .find{
-        margin-top: 10px;
-    }
+ p:first-of-type {
 
-   
+     
+     margin: 15px 0;
+
+ }
+
+p{
+
+     font-size: 14px;
+     margin: 15px 0;
+
 }
 
-
-.instagram{
-    padding: 30px;
-
-  h2{
+ h3{
+     font-size: 20px;
+     margin: 15px 0;
+     
     
-      font-size: 10px;
-  }
+ }
 
-  .demo{
-      display: flex;
-      justify-content: center;
+ 
+.name{
 
-
-      img{
-          width: 20%;
-          height: 21vh;
-          padding: 5px;
-      }
-      padding: 15px;
-  }
-
-  .name{
-      margin-top: 13px;
-      height: 63vh;
-  }
-
-
-  .kill{
-
-
-      p{
-          font-size: 10px;
-          margin-bottom: 8px;
-        
-      }
-
-  a{
-      font-size: 7px;
-       padding: 7px 12px;
-      
+   h3, p {
+    margin-left: -38px;
    }
 
-  }
 }
 
+ }
+
+
+}
+
+
+
+
+
+.services{
+    padding: 40px 0px;
+
+
+ 
+    h2{
+       font-size: 15px;
+       padding-bottom: 15px;
+       text-align: center;
+    }
+
+    .fill{
+      
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+    }
+
+
+
+    .now{
+  
+        width: 81%;
+        height: 69vh;
+       
+        .good{
+
+            height: 69.2vh;
+            width:100%;
+            
+            
+         img{
+            margin-left: 18px;
+            width: 13.6%;
+            height: 6.5vh;
+         }
+    
+            h5{
+                font-size: 17px;
+                padding-right: 52px;
+                margin-bottom: 5px;
+            }
+    
+        }
+      
+
+    }
+
+       
+   
+    .super{
+        margin: 20px 0;
+        background-color: #742296;
+        color: white;
+        width: 82%;
+        height: 69vh;
+        padding: 20px 15px;
+        position: relative;
+    
+
+        .more{
+
+            height: 66.2vh;
+            width:96%;
+            display: flex;
+            align-items: end;
+            justify-content:end ;
+            position: absolute;
+
+              
+         img{
+            object-fit: contain;
+            width: 13%;
+            height: 6vh;
+            opacity: 70%;
+            margin-right:3.2px;
+         
+         }
+    
+
+        }
+
+
+      h3{
+        font-size: 15px;
+        
+      }
+
+      li{
+        font-size: 15px;
+        padding: 1px;
+
+    
+
+      }
+
+      h4{
+        font-size: 17px;
+      }
+
+      li:first-child {
+        font-size: 14px;
+      }
+
+
+    }
+
+
+    .foni{
+        width: 81%;
+        height: 69vh;
+       
+
+    }
+
+    .bad{
+        height: 69.1vh;
+        width:100%;
+ 
+    
+         
+        img{
+           
+            margin-left: 15px;
+            width: 13.6%;
+            height: 6.5vh;
+         }
+    
+            h5{
+               
+                font-size: 17px;
+                padding-right: 89px;
+                margin-bottom: 11px;
+
+            }
+
+  
+}
+}
 
 
 
 .isdo{
-    padding: 20px 0px  20px 27px;
+    padding: 20px 0px  20px 14px;
 
     
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 
-   
+    .line4 {
+        background-color: #f1f1f1;
+        width: 60px;
+        border: 1px solid white;
+        margin-bottom: 10px;
+    }
+
+    .line5{
+        background-color: #f1f1f1;
+        width: 60px;
+        border: 1px solid white;
+        margin-bottom: 10px;
+    }
+
+    .line3 {
+        background-color: #f1f1f1;
+        width: 40px;
+        border: 1px solid white;
+        margin-bottom: 10px;
+    }
   
+
+     .for3 p:last-of-type {
+        font-size: 9px;
+    }
 
     img{
         width: 30%;
@@ -2296,146 +2972,776 @@ width: 50%;
 
 
 
+.instagram{
+    padding: 30px;
 
-.services{
-    padding: 40px 0px;
+  h2{
+    font-size: 18px;
+  }
 
-
- 
-    h2{
-       font-size: 15px;
-       padding-bottom: 15px;
-       text-align: center;
-    }
-
-    .fill{
-      
-        display: flex;
-       justify-content: center;
-       align-items: center;
-       flex-direction: column;
-    }
+  .demo{
+      display: flex;
+      justify-content: center;
 
 
+      img{
+        width: 100%;
+        height: 27vh;
+        padding: 3px;
+      }
+      padding: 15px;
+  }
 
-    .now{
-  
-        width: 81%;
-        height: 69vh;
-       
-        .good{
-
-            height: 69.2vh;
-            width:100%;
-            
-            
-         img{
-            margin-left: 18px;
-            width: 13.6%;
-            height: 6.5vh;
-         }
-    
-            h5{
-                font-size: 17px;
-                padding-right: 40px;
-                margin-bottom: 6px;
-            }
-    
-        }
-      
-
-    }
-
-       
-   
-    .super{
-        margin: 20px 0;
-        background-color: #742296;
-        color: white;
-        width: 82%;
-        height: 69vh;
-        padding: 20px 15px;
-        position: relative;
-    
-
-        .more{
-
-            height: 66.2vh;
-            width:96%;
-            display: flex;
-            align-items: end;
-            justify-content:end ;
-            position: absolute;
-
-              
-         img{
-            object-fit: contain;
-            width: 13%;
-            height: 6vh;
-            opacity: 70%;
-            margin-right:3.2px;
-         
-         }
-    
-
-        }
+  .name{
+      margin-top: 13px;
+      height: 63vh;
+      display: none;
+  }
 
 
-      h3{
-        font-size: 16px;
+  .kill{
+
+
+      p{
+          font-size: 10px;
+          margin-bottom: 8px;
         
       }
 
-      li{
-        font-size: 16px;
-        padding: 8px;
+  a{
+      font-size: 7px;
+       padding: 7px 12px;
+      
+   }
+
+  }
+}
+
+
+
+
+
+}
+
+
+// @media (max-width: 575.98px) { 
+    
+// .main-nav{
+//     padding: 20px 0 0 0;
+//     display: flex;
+   
+
+
+//     img{
+//         margin-left: 6px;
+//         height: 7vh;
+//         width: 28%;
+        
+//     }
+
+//     .nav-bar{
+     
+//         margin-right:160px;
+      
+
+  
+
+//         li{
+//             list-style: none;
+//             padding-left: 10px;
+            
+
+         
+         
+//         }
+
+//         img{
+//             padding-left: 0px;
+//             width: 43%;
+//             height: 3vh;
+           
+//         }
+//     }
+
+
+//     a{
+//      display: none;
+//     }
+    
+    
+// }
+
+
+// .banner .image-life .pic3 {
+//     margin-top: 28px;
+// }
+
+// .banner .image-life .pic1 {
+//     margin-top: 28px;
+// }
+
+
+
+// .banner{
+//     padding: 0px 0px 0px 19px;
+//      display: flex;
+//      flex-direction: column;
+    
+ 
+//     .zim{
+//         display: flex;
+//         justify-content: center;
+//     }
+
+//     .text{
+   
+//     top :20px;
+//     }
+ 
+//     h1{
+//         font-size: 29px;
+//         margin-top: 0px;
+//         margin-bottom: 7px;
+    
+       
+//     }
+
+//     p{
+//         font-size: 15px;
+//         line-height: 1.4;
+//         padding-top: 0px;
+//         padding-bottom: 10px;
+//         margin: 0;
+//         text-align: center;
+
+//     }
+
+
+//     .dis{
+//         font-size: 10px;
+//         padding: 7px 12px;
+        
+//     }
+
+    
+//     .kok{
+//         font-size: 9px;
+//         padding: 4px 6px;
+//         margin-left: 16px;
+        
+//     }
+
+
+//     img{
+//    padding: 30px 0;
+//    width: 84px;
+//    height: 38vh;
+//    object-fit: cover;
+
+//     }
+    
+//     .image-life{
+//        padding: 0;
+//        margin: 0;
+        
+//     }
+
+
+//    .pic1, .pic3 {
+//     margin-top: 28px;
+//    }
+
 
     
 
-      }
+//   .fill{
 
-      li:first-child {
-        text-decoration: underline 2px solid white ;
-        font-size: 17px;
-      }
+//     display: flex;
+//     justify-content: center;
+//        span{
+
+//         margin:0;
+//         font-size: 9px;
+//         padding-top: 10px;
+
+//       }
 
 
-    }
-
-
-    .foni{
-        width: 81%;
-        height: 69vh;
+//     p{
+    
+//         margin: 0;
+//         font-size: 9px;
+//         padding-top: 10px;
        
 
-    }
+//         i{
+//             font-size: 20px;
+//             padding-bottom: 10px;
+//             display: none;
+//         }
+         
+//     }
 
-    .bad{
-        height: 69.1vh;
-        width:100%;
+//     i{
+//         display: none;
+//     }
+
+    
+
+//     span{
+//         margin: px 0 0 0;
+//         font-size: 9px;
+      
+         
+//     }
+
+//     i{
+//         color: black;
+//         padding: 0  10px 0 0;
+//         font-size: 24px;
+//     }
+
+// }
+
+// }
+
+
+// .about{
+//     padding: 10px 12px;
+    
+
+// h2{
+//     font-size: 15px;
+//     padding-bottom: 8px;
+//     text-align: center;
+//     margin-left: 2px;
+// }
+
+
+// .container{
+//     display: flex;
+//     justify-content: space-evenly;
+//     flex-direction: column;
+  
+
+ 
+//     .gallery{
+//         display: flex;
+        
+//         img{
+//             height:32vh;
+//             margin-bottom: 15px;
+//         }
+        
+//         .natural{
+//             margin-top: 40px; 
+//          }
+    
+//     }
+
+
+//     .gala{
+//         margin-bottom: 17px;
+//     }
+
+//         p{
+//             font-size: 10px;
+//             margin-bottom: 17px;
+//             text-align: center;
+//         }
+        
+    
+
+//     .hi{
+//         height: 45vh;
+//         width: 78%;
+//         display: flex;
+      
+
+
+       
+//      .deep{
+//         height: 4vh;  
+//         margin-left: 15px;
+//     }
+
+//     }
+//     .rong{
+//         margin-left: 0px;
+//      }
+
+//      .gun{
+//         padding-left: 0px;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+        
+
+
+//         .nato{
+//             height: 45vh;
+           
+//          }
+
+
+//       p{
+//         padding-top: 13px ;
+//         padding-bottom: 16px;
+//         margin: 0;
+//         font-size: 10px;
+//      }
+
+     
+     
+
+//      a{
+//         font-size: 8px;
+//         padding: 7px 14px;
+//      }
+
+
+//     }
+
+
+   
+    
+// }
+
+
+// }
+
+
+
+
+// .main{
+//     padding: 60px 65px 0 65px  ;
+  
+
+//          h2{
+//      font-size: 21px;
+//      font-family: "JosefinSans-Regular";
+//      font-weight: bolder;
+//      margin-bottom: 0;
+    
+//        }
+
+
+//  .get{
+//      display: flex;
+//      justify-content: center;
+//      flex-direction: column;
+   
+     
+// .very {
+
+//  margin: 53px 40px 0 0px;
+
+//  }
+
+//  .name {
+ 
+//  margin: -14px 0px 0 40px;
+
+//  }
+     
+
+//      .kim2{
+//          display: flex;
+//          justify-content: flex-end;
+//          align-items: end;
+//          background-image: url("images/WhatsApp Image 2024-05-02 at 07.24.17 (1).jpeg");
+//          background-repeat: no-repeat;
+//          background-size: cover;
+//          object-fit: contain;
+//          width: 286px;
+//          height: 35vh;
+
+//          .late{
+//              object-fit: contain;
+//              width: 9.3%;
+//              height: 6vh;
+//              margin-left: 20PX;
+//          }
+//      }
+
+//      .kim1{
+//          display: flex;
+//          justify-content: flex-end;
+//          object-fit: contain;
+//          align-items: end;
+//          background-image: url("/images/WhatsApp Image 2024-05-02 at 07.24.13.jpeg");
+//          background-repeat: no-repeat;
+//          background-size: cover;
+//          width: 242px;
+//          height: 32vh;
+
+//          .visa{
+             
+//              object-fit: contain;
+//              width: 9.3%;
+//              height: 6vh;
+//              margin-left: 20PX;
+//          }
+//      }
+
+
+//  p:first-of-type {
+
+//      font-family: "JosefinSans-Regular";
+//      font-weight: 500;
+//      margin: 15px 0;
+
+//  }
+
+// p{
+
+//      font-size: 18px;
+//      font-family: "JosefinSans-Regular";
+//      font-weight: 550;
+//      margin: 15px 0;
+
+// }
+
+//  h3{
+//      font-size: 20px;
+//      margin: 15px 0;
+//      font-family: "JosefinSans-Regular";
+//      font-weight: bolder;
+//  }
+
+
+
+//  }
+
+
+// }
+
+
+// // .main{
+// //     padding: 30px 0 0 0px  ;
+
+// //     .more{
+    
+    
+
+// //     .very{
+// //         margin-right: 20px;
+// //     }
+   
+    
+// //     }
+
+// //     img{
+// //         height: 19vh;
+// //         width: 100%;
+     
+      
+// //     }
+
+// //     p{
+// //         font-size: 8px;
+// //         margin: 3px 0;
+// //     }
+
+
+// //     h3{
+// //         font-size: 13px;
+// //         margin: 3px 0;
+        
+// //     }
+
+// //     span{
+// //         font-size: 9.3px;
+// //         margin: 2px 0;
+// //     }
+
+// //     h2{
+// //         font-size: 15px;
+// //         margin-bottom: 10px;
+// //         text-align: center;
+       
+// //     }
+
+// //     .food{
+// //         margin-top: 10px;
+// //     }
+
+// //     .find{
+// //         margin-top: 10px;
+// //     }
+
+   
+// // }
+
+
+// .instagram{
+//     padding: 30px;
+
+//   h2{
+    
+//       font-size: 10px;
+//   }
+
+//   .demo{
+//       display: flex;
+//       justify-content: center;
+
+
+//       img{
+//           width: 20%;
+//           height: 21vh;
+//           padding: 5px;
+//       }
+//       padding: 15px;
+//   }
+
+//   .name{
+//       margin-top: 13px;
+//       height: 63vh;
+//   }
+
+
+//   .kill{
+
+
+//       p{
+//           font-size: 10px;
+//           margin-bottom: 8px;
+        
+//       }
+
+//   a{
+//       font-size: 7px;
+//        padding: 7px 12px;
+      
+//    }
+
+//   }
+// }
+
+
+
+
+// .isdo{
+//     padding: 20px 0px  20px 27px;
+
+    
+//     display: flex;
+//     justify-content: space-around;
+//     flex-wrap: wrap;
+
+   
+  
+
+//     img{
+//         width: 30%;
+//         padding-bottom: 10px;
+
+//     }
+
+//     h6{
+//       font-size: 10px;
+//     }
+
+//     p{
+//       font-size: 9px;
+//       margin-bottom: 4px;
+//     }
+
+// .first{
+
+// width: 50%;
+
+
+//   p{
+//     margin-bottom: 3px;
+//     font-size: 7px;
+//   }
+
+//     .shame{
+//         margin-left: 17px;
+//         margin-bottom: 5px;
+        
+//      }
+
+
+//     i{
+//       font-size: 14px;
+//       padding-right: 9px;
+//     }
+
+// }
+
+// .second{
+  
+//     width: 50%;
+// }
+
+
+// .third{
+  
+//     width: 50%;
+//     margin-top: 10px;
+// }
+
+// .forth{
+//     width: 50%;
+//     margin-top: 10px;
+   
+//     i{
+//         font-size: 10px;
+//         padding-right: 15px;
+//     }
+
+//     p{
+//         padding: 0;
+//     }
+// }
+
+// }
+
+
+
+
+// .services{
+//     padding: 40px 0px;
+
+
+ 
+//     h2{
+//        font-size: 15px;
+//        padding-bottom: 15px;
+//        text-align: center;
+//     }
+
+//     .fill{
+      
+//         display: flex;
+//        justify-content: center;
+//        align-items: center;
+//        flex-direction: column;
+//     }
+
+
+
+//     .now{
+  
+//         width: 81%;
+//         height: 69vh;
+       
+//         .good{
+
+//             height: 69.2vh;
+//             width:100%;
+            
+            
+//          img{
+//             margin-left: 18px;
+//             width: 13.6%;
+//             height: 6.5vh;
+//          }
+    
+//             h5{
+//                 font-size: 17px;
+//                 padding-right: 40px;
+//                 margin-bottom: 6px;
+//             }
+    
+//         }
+      
+
+//     }
+
+       
+   
+//     .super{
+//         margin: 20px 0;
+//         background-color: #742296;
+//         color: white;
+//         width: 82%;
+//         height: 69vh;
+//         padding: 20px 15px;
+//         position: relative;
+    
+
+//         .more{
+
+//             height: 66.2vh;
+//             width:96%;
+//             display: flex;
+//             align-items: end;
+//             justify-content:end ;
+//             position: absolute;
+
+              
+//          img{
+//             object-fit: contain;
+//             width: 13%;
+//             height: 6vh;
+//             opacity: 70%;
+//             margin-right:3.2px;
+         
+//          }
+    
+
+//         }
+
+
+//       h3{
+//         font-size: 16px;
+        
+//       }
+
+//       li{
+//         font-size: 16px;
+//         padding: 8px;
+
+    
+
+//       }
+
+//       li:first-child {
+//         text-decoration: underline 2px solid white ;
+//         font-size: 17px;
+//       }
+
+
+//     }
+
+
+//     .foni{
+//         width: 81%;
+//         height: 69vh;
+       
+
+//     }
+
+//     .bad{
+//         height: 69.1vh;
+//         width:100%;
  
     
          
-        img{
+//         img{
            
-            margin-left: 15px;
-            width: 13.6%;
-            height: 6.5vh;
-         }
+//             margin-left: 15px;
+//             width: 13.6%;
+//             height: 6.5vh;
+//          }
     
-            h5{
+//             h5{
                
-                font-size: 17px;
-                padding-right: 66px;
-                margin-bottom: 17px;
+//                 font-size: 17px;
+//                 padding-right: 66px;
+//                 margin-bottom: 17px;
 
-            }
+//             }
 
   
-}
-}
+// }
+// }
 
-}
+// }
 
 
 
@@ -2455,7 +3761,7 @@ width: 50%;
   }
 }
 
-  @media (min-width: 768px) and (max-width: 991px) {
+  @media screen and  (min-width: 768px) and (max-width: 991px) {
 
 
     body{
@@ -2492,6 +3798,25 @@ width: 50%;
       display: none;
     }
 
+
+  }
+}
+
+
+@media (max-width: 575px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .main-nav{
+    .overlay {
+      display: flex;
+    }
+
+    span {
+      display: flex;
+    }
 
   }
 }
