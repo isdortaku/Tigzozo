@@ -151,22 +151,22 @@ body {
   top: 60px;
 }
 .banner .text h1 {
-  font-size: 48px;
+  font-size: 46px;
   font-family: "JosefinSans-Regular";
-  font-weight: bolder;
   color: #000;
   font-weight: 700;
   margin-top: 45px;
-  line-height: 1.1;
+  line-height: 55px;
 }
 .banner .text p {
-  font-size: 23px;
+  font-size: 21px;
   font-family: "JosefinSans-Regular";
-  font-weight: 580;
+  font-weight: 400;
   line-height: 1.4;
   padding-top: 6px;
   padding-bottom: 10px;
-  line-height: 1.1;
+  line-height: 25px;
+  color: #000;
 }
 .banner .text .dis {
   background-color: #742296;
@@ -174,7 +174,7 @@ body {
   text-decoration: none;
   font-family: "JosefinSans-Regular";
   font-size: 16px;
-  padding: 10px 17px;
+  padding: 11px 18px;
 }
 .banner .text .kok {
   background-color: white;
@@ -183,15 +183,15 @@ body {
   font-family: "JosefinSans-Regular";
   font-weight: bold;
   font-size: 17px;
-  padding: 7px 4px;
+  padding: 8px 5px;
   border-left: 6px solid #742296;
   border-right: 6px solid #742296;
   border-bottom: 3px solid #742296;
   border-top: 3px solid #742296;
-  margin-left: 30px;
+  margin-left: 37px;
 }
 .banner img {
-  width: 180px;
+  width: 182px;
   height: 70vh;
   -o-object-fit: cover;
      object-fit: cover;
@@ -210,7 +210,9 @@ body {
   margin: 10px 0 0 0;
   color: #742296;
   font-family: "JosefinSans-Regular";
-  font-size: 18px;
+  line-height: 17px;
+  font-weight: 400;
+  font-size: 19px;
   display: flex;
   align-items: center;
 }
@@ -224,6 +226,7 @@ body {
   color: #000;
   font-family: "JosefinSans-Regular";
   font-size: 17px;
+  line-height: 21px;
   display: flex;
   align-items: end;
 }
@@ -270,7 +273,7 @@ body {
 .about .container .hi {
   position: absolute;
   height: 64vh;
-  width: 34%;
+  width: 32%;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
@@ -281,10 +284,11 @@ body {
   border-radius: 28%;
 }
 .about .container .gun {
-  padding-left: 33px;
+  padding-left: 38px;
 }
 .about .container .gun .nato {
-  height: 58vh;
+  height: 58.3vh;
+  width: 395.2px;
 }
 .about .container .gun .nato:before {
   content: "";
@@ -335,13 +339,13 @@ body {
   background-image: url(images/WhatsApp\ Image\ 2024-05-03\ at\ 00.13.55.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 26.7%;
-  height: 78vh;
+  width: 303px;
+  height: 74vh;
   position: relative;
 }
 .services .now .good {
-  height: 78vh;
-  width: 100.4%;
+  width: 303px;
+  height: 74vh;
   display: flex;
   align-items: end;
   justify-content: end;
@@ -366,14 +370,14 @@ body {
   margin: 0 23px;
   background-color: #742296;
   color: white;
-  width: 26.6%;
-  height: 78vh;
+  width: 303px;
+  height: 74vh;
   padding: 20px 15px;
   position: relative;
 }
 .services .super .more {
-  height: 74.9vh;
-  width: 96.92%;
+  width: 298px;
+  height: 75vh;
   display: flex;
   align-items: end;
   justify-content: end;
@@ -382,10 +386,10 @@ body {
 .services .super .more img {
   -o-object-fit: contain;
      object-fit: contain;
-  width: 13.9%;
-  height: 6.4vh;
+  width: 12.9%;
+  height: 13.9vh;
   opacity: 70%;
-  margin-right: 3.2px;
+  margin-right: 9.2px;
 }
 .services .super h3 {
   font-size: 18px;
@@ -411,8 +415,8 @@ body {
   background-image: url(images/WhatsApp\ Image\ 2024-05-03\ at\ 00.13.57\ \(1\).jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 26.7%;
-  height: 78vh;
+  width: 303px;
+  height: 74vh;
   position: relative;
 }
 .services .foni:before {
@@ -425,8 +429,8 @@ body {
   background: rgba(0, 0, 0, 0.5);
 }
 .services .bad {
-  height: 78vh;
-  width: 100.4%;
+  height: 74vh;
+  width: 303px;
   display: flex;
   align-items: end;
   justify-content: end;
@@ -445,7 +449,7 @@ body {
   font-family: "JosefinSans-Regular";
   font-weight: bolder;
   padding-right: 70px;
-  margin-bottom: 6px;
+  margin-bottom: 12px;
 }
 
 .main {
@@ -572,7 +576,7 @@ body {
   background-color: #742296;
   color: white;
   overflow-x: hidden;
-  padding: 25px 0px 23px 0;
+  padding: 25px 0px 0px 0;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -641,8 +645,8 @@ body {
     margin-right: 114px;
   }
   .main-nav .nav-bar img {
-    padding-left: 85px;
-    width: 26%;
+    padding-left: 91px;
+    width: 25%;
   }
   .main-nav a {
     font-size: 22px;
@@ -651,22 +655,44 @@ body {
     padding: 5px 0px 30px 65px;
   }
   .banner .text h1 {
-    font-size: 31px;
-    margin-top: 25px;
+    font-size: 35px;
+    font-family: "JosefinSans-Regular";
+    color: #000;
+    font-weight: 700;
+    margin-top: 20px;
+    line-height: 42px;
   }
   .banner .text p {
-    font-size: 14px;
-    padding-top: 10px;
+    font-size: 17px;
+    font-family: "JosefinSans-Regular";
+    font-weight: 400;
+    line-height: 1.4;
+    padding-top: 6px;
     padding-bottom: 10px;
+    line-height: 25px;
+    color: #000;
   }
   .banner .text .dis {
+    background-color: #742296;
+    color: white;
+    text-decoration: none;
+    font-family: "JosefinSans-Regular";
     font-size: 13px;
-    padding: 10px 16px;
+    padding: 11px 18px;
   }
   .banner .text .kok {
-    font-size: 13px;
-    padding: 7px 3px;
-    margin-left: 30px;
+    background-color: white;
+    color: #000;
+    text-decoration: none;
+    font-family: "JosefinSans-Regular";
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 5px;
+    border-left: 6px solid #742296;
+    border-right: 6px solid #742296;
+    border-bottom: 3px solid #742296;
+    border-top: 3px solid #742296;
+    margin-left: 22px;
   }
   .banner img {
     width: 130px;
@@ -682,12 +708,13 @@ body {
   .banner .image-life .pic1, .banner .image-life .pic3 {
     margin-top: 56px;
   }
-  .banner .fill {
-    margin: 15px 0 0 0;
-  }
   .banner .fill p:first-of-type {
     margin: 10px 0 0 0;
-    font-size: 15px;
+    color: #742296;
+    font-family: "JosefinSans-Regular";
+    line-height: 17px;
+    font-weight: 400;
+    font-size: 19px;
     display: flex;
     align-items: center;
   }
@@ -698,7 +725,12 @@ body {
   }
   .banner .fill p:last-of-type {
     margin: 5px 0 0 0;
-    font-size: 15px;
+    color: #000;
+    font-family: "JosefinSans-Regular";
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    align-items: end;
   }
   .banner .fill i {
     font-size: 26px;
@@ -725,17 +757,20 @@ body {
     margin-bottom: 13px;
   }
   .about .container .hi {
-    height: 24vh;
-    width: 32%;
+    height: 22vh;
+    width: 321px;
   }
   .about .container .hi .deep {
-    height: 4vh;
+    height: 3vh;
   }
   .about .container .gun {
     padding-left: 52px;
   }
   .about .container .gun .nato {
     height: 20vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 325px;
   }
   .about .container .gun p {
     padding-top: 13px;
@@ -757,7 +792,7 @@ body {
     justify-content: center;
   }
   .services .now {
-    width: 30%;
+    width: 295px;
     height: 30vh;
   }
   .services .now .good {
@@ -778,7 +813,7 @@ body {
     margin: 0 20px;
     background-color: #742296;
     color: white;
-    width: 30%;
+    width: 295px;
     height: 30vh;
     padding: 20px 15px;
     position: relative;
@@ -814,7 +849,7 @@ body {
     background-image: url(images/WhatsApp\ Image\ 2024-05-03\ at\ 00.13.57\ \(1\).jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 30%;
+    width: 295px;
     height: 30vh;
     position: relative;
   }
@@ -830,7 +865,7 @@ body {
     -o-object-fit: contain;
        object-fit: contain;
     margin-left: 20px;
-    width: 13.6%;
+    width: 13%;
     height: 2.5vh;
   }
   .services .bad h5 {
@@ -863,6 +898,9 @@ body {
     font-size: 17px;
     margin-bottom: 0;
   }
+  .isdo .for3 p:last-of-type {
+    font-size: 15px;
+  }
   .instagram {
     padding: 30px;
   }
@@ -870,6 +908,8 @@ body {
     width: 12%;
     height: 20vh;
     padding: 5px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .instagram .name {
     margin-top: 60px;
@@ -942,80 +982,72 @@ body {
   .banner .text {
     top: 60px;
   }
-  .banner .text h1 {
-    font-size: 26px;
-    margin-top: 15px;
-  }
-  .banner .text p {
-    font-size: 10px;
-    line-height: 1.4;
-    padding-top: 0px;
-    padding-bottom: 10px;
-    margin: 0;
-  }
-  .banner .text .dis {
-    font-size: 10px;
-    padding: 9px 14px;
-  }
-  .banner .text .kok {
-    font-size: 10px;
-    padding: 7px 3px;
-    margin-left: 21px;
-  }
-  .banner .text .fill p:first-of-type {
-    margin: 10px 0 0 0;
-    color: #742296;
-    font-family: "JosefinSans-Regular";
-    font-size: 13px;
-    display: flex;
-    align-items: center;
-  }
-  .banner .text .fill i {
-    color: #000;
-    padding: 0 10px 0 0;
-    font-size: 22px;
-  }
-  .banner .text .fill p:last-of-type {
-    margin: 5px 0 0 0;
-    color: #000;
-    font-family: "JosefinSans-Regular";
-    font-size: 12px;
-    display: flex;
-    align-items: end;
-  }
-  .banner .text .fill i {
-    font-size: 22px;
-    font-weight: 100;
-  }
   .banner img {
-    width: 98px;
-    height: 27vh;
+    width: 100px;
+    height: 29vh;
     padding-right: 13px;
   }
   .banner .image-life .pic1, .banner .image-life .pic3 {
     margin-top: 56px;
   }
-  .banner .fill span {
-    margin: 15px 0 0 0;
-    font-size: 12px;
-    padding-top: 10px;
+  .banner .text h1 {
+    font-size: 25px;
+    font-family: "JosefinSans-Regular";
+    color: #000;
+    font-weight: 700;
+    margin-top: 10px;
+    line-height: 36px;
   }
-  .banner .fill p {
-    margin: 15px 0 0 0;
-    font-size: 12px;
-    padding-top: 4px;
+  .banner .text p {
+    font-size: 14px;
+    font-family: "JosefinSans-Regular";
+    font-weight: 400;
+    line-height: 1.4;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    line-height: 25px;
+    margin-bottom: 4px;
   }
-  .banner .fill p i {
-    font-size: 24px;
-    padding-bottom: 15px;
+  .banner .text .dis {
+    background-color: #742296;
+    color: white;
+    text-decoration: none;
+    font-family: "JosefinSans-Regular";
+    font-size: 11px;
+    padding: 11px 18px;
   }
-  .banner .fill span {
-    margin: 15px 0 0 0;
-    font-size: 13px;
+  .banner .text .kok {
+    background-color: white;
+    color: #000;
+    text-decoration: none;
+    font-family: "JosefinSans-Regular";
+    font-weight: bold;
+    font-size: 11px;
+    padding: 8px 5px;
+    border-left: 6px solid #742296;
+    border-right: 6px solid #742296;
+    border-bottom: 3px solid #742296;
+    border-top: 3px solid #742296;
+    margin-left: 22px;
   }
-  .banner .fill i {
-    padding: 0 10px 0 0;
-    font-size: 24px;
+  .banner .fill p:first-of-type {
+    margin: 10px 0 0 0;
+    color: #742296;
+    font-family: "JosefinSans-Regular";
+    line-height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  .banner .fill p:last-of-type {
+    margin: 5px 0 0 0;
+    color: #000;
+    font-family: "JosefinSans-Regular";
+    font-size: 11px;
+    line-height: 10px;
+    display: flex;
+    align-items: end;
   }
   .about {
     padding: 74px 47px;
@@ -1033,10 +1065,6 @@ body {
   .about .container .gala {
     margin-bottom: 17px;
   }
-  .about .container p {
-    font-size: 10px;
-    margin-bottom: 13px;
-  }
   .about .container .hi {
     height: 29vh;
     width: 36%;
@@ -1044,19 +1072,27 @@ body {
   .about .container .hi .deep {
     height: 4vh;
   }
-  .about .container .gun {
-    padding-left: 25px;
-  }
   .about .container .gun .nato {
-    height: 24vh;
+    height: 26.3vh;
+    width: 296.2px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
-  .about .container .gun p {
-    padding-top: 13px;
-    padding-bottom: 15px;
+  .about .container p {
+    font-size: 11px;
+    margin-bottom: 13px;
   }
-  .about .container .gun a {
-    font-size: 16px;
-    padding: 11px 11px;
+  .about .container .gallery img {
+    height: 18vh;
+  }
+  p {
+    padding-top: 15px;
+    padding-bottom: 11px;
+    font-weight: 590;
+  }
+  .about h2 {
+    font-size: 24px;
+    padding-bottom: 10px;
   }
   .services {
     padding: 60px 47px;
@@ -1086,7 +1122,7 @@ body {
     height: 7vh;
   }
   .services .now .good h5 {
-    font-size: 15px;
+    font-size: 18px;
     padding-right: 17px;
     margin-bottom: 24px;
   }
@@ -1113,11 +1149,14 @@ body {
     font-size: 12px;
   }
   .services .super li {
-    font-size: 10px;
+    font-size: 11px;
     padding: 0px;
   }
   .services .super li .line {
     width: 50px;
+  }
+  .services .super li p {
+    padding: 0;
   }
   .services .super h4 {
     font-size: 10px;
@@ -1139,9 +1178,9 @@ body {
     height: 6.9vh;
   }
   .services .bad h5 {
-    font-size: 15px;
-    padding-right: 28px;
-    margin-bottom: 27px;
+    font-size: 18px;
+    padding-right: 55px;
+    margin-bottom: 33px;
   }
   .main .get .kim1 {
     width: 320px;
@@ -1157,7 +1196,7 @@ body {
   .main .get p {
     font-size: 16px;
     font-weight: 550;
-    margin: 15px 0;
+    margin: 0px 0;
   }
   .main h2 {
     margin-left: -20px;
@@ -1165,6 +1204,11 @@ body {
     font-family: "JosefinSans-Regular";
     font-weight: bolder;
     margin-bottom: 0;
+  }
+  .main .get p:first-of-type {
+    font-family: "JosefinSans-Regular";
+    font-weight: 500;
+    margin: -5px 0;
   }
   .isdo .for3 p:last-of-type {
     font-size: 11px;
@@ -1226,35 +1270,16 @@ body {
     font-size: 14px;
     padding: 7px 15px;
   }
-  .isdo {
-    padding: 25px 0px 23px 0;
-    width: 100%;
-  }
-  .isdo img {
-    width: 50%;
-    padding-bottom: 10px;
-  }
   .isdo h6 {
-    font-size: 14px;
+    font-family: "JosefinSans-Regular";
+    font-weight: bolder;
+    margin-bottom: 0;
+    font-size: 15px;
   }
   .isdo p {
-    font-size: 10px;
-    margin-bottom: 15px;
-  }
-  .isdo .first p {
-    margin-bottom: 3px;
-  }
-  .isdo .first .shame {
-    margin-left: 37px;
-    margin-bottom: 15px;
-  }
-  .isdo .first i {
-    font-size: 26px;
-    padding-right: 25px;
-  }
-  .isdo .forth i {
-    font-size: 20px;
-    padding-right: 18px;
+    font-family: "JosefinSans-Regular";
+    font-size: 12px;
+    margin-bottom: -19px;
   }
 }
 @media (max-width: 575.98px) {
@@ -1262,14 +1287,14 @@ body {
     margin-right: 0px;
   }
   .main-nav {
-    padding: 20px 0 0 0;
+    padding: 20px 25px 0 0;
   }
   .main-nav img {
     height: 7vh;
     width: 100%;
     -o-object-fit: contain;
        object-fit: contain;
-    margin-left: -5px;
+    margin-left: 15px;
   }
   .main-nav .nav-bar {
     margin-right: 160px;
@@ -1305,8 +1330,7 @@ body {
     right: 143px;
   }
   .main-nav span {
-    margin: auto;
-    margin-right: 20px;
+    margin-right: 30px;
     display: flex;
   }
   .main-nav .overlay-content {
@@ -1339,44 +1363,33 @@ body {
     right: 45px;
     font-size: 60px;
   }
+  .banner .fill p:first-of-type {
+    margin: 17px 0 0 0;
+    font-size: 12px;
+  }
   .banner {
-    padding: 5px 0px 30px 12px;
+    padding: 5px 0px 30px 27px;
   }
   .banner .text {
     position: relative;
-    top: 60px;
-  }
-  .banner .text h1 {
-    margin-top: -30px;
-    font-size: 29px;
-  }
-  .banner .text p {
-    font-size: 13px;
-    padding-top: 6px;
-    padding-bottom: 0px;
-  }
-  .banner .text .dis {
-    font-size: 10px;
-    padding: 7px 12px;
-  }
-  .banner .text .kok {
-    font-size: 9px;
-    padding: 4px 6px;
-    margin-left: 16px;
+    top: 20px;
   }
   .banner img {
-    width: 122px;
-    height: 42vh;
+    width: 166px;
+    height: 56vh;
     -o-object-fit: cover;
        object-fit: cover;
     padding-right: 13px;
   }
   .banner .image-life {
     display: flex;
-    padding-top: 75px;
+    padding-top: 53px;
   }
-  .banner .image-life .pic1, .banner .image-life .pic3 {
+  .banner .image-life .pic1 {
     margin-top: 30px;
+  }
+  .banner .image-life .pic3 {
+    display: none;
   }
   .banner .image-life .pic4 {
     display: none;
@@ -1401,6 +1414,64 @@ body {
     font-size: 18px;
     font-weight: 100;
   }
+  .banner .text h1 {
+    font-size: 32px;
+    font-family: "JosefinSans-Regular";
+    color: #000;
+    font-weight: 700;
+    margin-top: 0px;
+    line-height: 37px;
+  }
+  .banner .text p {
+    font-size: 14px;
+    font-family: "JosefinSans-Regular";
+    font-weight: 400;
+    line-height: 1.4;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    line-height: 23px;
+    margin-bottom: 6px;
+  }
+  .banner .text .kok {
+    background-color: white;
+    color: #000;
+    text-decoration: none;
+    font-family: "JosefinSans-Regular";
+    font-weight: bold;
+    font-size: 13px;
+    padding: 8px 5px;
+    border-left: 6px solid #742296;
+    border-right: 6px solid #742296;
+    border-bottom: 3px solid #742296;
+    border-top: 3px solid #742296;
+    margin-left: 15px;
+  }
+  .banner .text .dis {
+    background-color: #742296;
+    color: white;
+    text-decoration: none;
+    font-family: "JosefinSans-Regular";
+    font-size: 12px;
+    padding: 11px 18px;
+  }
+  .banner .fill p:last-of-type {
+    margin: 5px 0 0 0;
+    color: #000;
+    font-family: "JosefinSans-Regular";
+    font-size: 17px;
+    line-height: 10px;
+    display: flex;
+    align-items: end;
+  }
+  .banner .fill p:last-of-type {
+    margin: 5px 0 0 0;
+    color: #000;
+    font-family: "JosefinSans-Regular";
+    font-size: 12px;
+    line-height: 10px;
+    display: flex;
+    align-items: end;
+  }
   .about {
     padding: 10px 12px;
   }
@@ -1419,7 +1490,7 @@ body {
     display: flex;
   }
   .about .container .gallery img {
-    height: 32vh;
+    height: 30.5vh;
     margin-bottom: 15px;
   }
   .about .container .gallery .natural {
@@ -1429,7 +1500,7 @@ body {
     margin-bottom: 17px;
   }
   .about .container p {
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 17px;
   }
   .about .container .hi {
@@ -1446,25 +1517,26 @@ body {
   }
   .about .container .gun {
     padding-left: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
   .about .container .gun .nato {
-    height: 45vh;
+    height: 41vh;
   }
   .about .container .gun p {
-    padding-top: 13px;
+    padding-top: 12px;
     padding-bottom: 16px;
     margin: 0;
-    font-size: 15px;
+    font-size: 12px;
   }
   .about .container .gun a {
     font-size: 8px;
     padding: 7px 14px;
   }
+  .about .container .gun .nato {
+    height: 42.3vh;
+    width: 317.2px;
+  }
   .main {
-    padding: 60px 65px 0 12px;
+    padding: 60px 65px 0 22px;
   }
   .main h2 {
     font-size: 20px;
@@ -1493,8 +1565,8 @@ body {
     background-size: cover;
     -o-object-fit: contain;
        object-fit: contain;
-    width: 351px;
-    height: 43vh;
+    width: 322px;
+    height: 40vh;
   }
   .main .get .kim2 .late {
     -o-object-fit: contain;
@@ -1512,8 +1584,8 @@ body {
     background-image: url("/images/WhatsApp Image 2024-05-02 at 07.24.13.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 351px;
-    height: 43vh;
+    width: 322px;
+    height: 40vh;
   }
   .main .get .kim1 .visa {
     -o-object-fit: contain;
@@ -1526,7 +1598,7 @@ body {
     margin: 15px 0;
   }
   .main .get p {
-    font-size: 14px;
+    font-size: 12px;
     margin: 15px 0;
   }
   .main .get h3 {
@@ -1767,5 +1839,164 @@ body {
   }
   .main-nav span {
     display: flex;
+  }
+}
+@media only screen and (min-width: 1399.98px) {
+  .main-nav .nav-bar img {
+    padding-left: 85px;
+    width: 26%;
+  }
+  .banner img {
+    width: 194px;
+    height: 61vh;
+    -o-object-fit: cover;
+    object-fit: contain;
+    padding-right: 13px;
+  }
+  .banner .text h1 {
+    font-size: 46px;
+    font-family: "JosefinSans-Regular";
+    color: #000;
+    font-weight: 700;
+    margin-top: 72px;
+    line-height: 55px;
+  }
+  .about .container .gun {
+    margin-left: 40px;
+  }
+  .about .container .gun .nato {
+    height: 49.3vh;
+    width: 467.2px;
+  }
+  .about .container .gallery img {
+    height: 40vh;
+  }
+  .about .container p {
+    font-family: "JosefinSans-Regular";
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-weight: 580;
+  }
+  .rong {
+    margin-left: 35px;
+  }
+  .about .container .hi {
+    position: absolute;
+    height: 54vh;
+    width: 32%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .about .container .gun {
+    margin-left: 24px;
+  }
+  .services .now {
+    width: 363px;
+    height: 70vh;
+    position: relative;
+  }
+  .services .foni {
+    width: 363px;
+    height: 70vh;
+    position: relative;
+  }
+  .services .super {
+    width: 363px;
+    height: 70vh;
+    position: relative;
+  }
+  .services .bad {
+    height: 70vh;
+    width: 363px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    position: absolute;
+  }
+  .services .now .good {
+    height: 70vh;
+    width: 363px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    position: absolute;
+  }
+  .services .super h3 {
+    font-size: 28px;
+    font-family: "JosefinSans-Regular";
+    margin-left: 4px;
+  }
+  .services .super p {
+    font-size: 20px;
+    padding: 2px;
+  }
+  .services .super .more {
+    width: 356px;
+    height: 75vh;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    position: absolute;
+  }
+  .services .super .more img {
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: 12.9%;
+    height: 20.6vh;
+    opacity: 70%;
+    margin-right: 5.2px;
+  }
+  .services .bad img {
+    -o-object-fit: contain;
+    object-fit: contain;
+    margin-left: 20px;
+    width: 13.6%;
+    height: 6.3vh;
+  }
+  .services .now .good img {
+    -o-object-fit: contain;
+    object-fit: contain;
+    margin-left: 20px;
+    width: 13.6%;
+    height: 6.3vh;
+  }
+  .services .bad h5 {
+    font-size: 27px;
+    color: white;
+    font-family: "JosefinSans-Regular";
+    font-weight: bolder;
+    padding-right: 106px;
+    margin-bottom: 18px;
+  }
+  .services .now .good h5 {
+    font-size: 28px;
+    color: white;
+    font-family: "JosefinSans-Regular";
+    font-weight: bolder;
+    padding-right: 70px;
+    margin-bottom: 9px;
+  }
+  .main .get .kim1 {
+    width: 515px;
+    height: 56vh;
+  }
+  .main .get .kim2 {
+    width: 515px;
+    height: 56vh;
+  }
+  .instagram .demo img {
+    width: 12%;
+    height: 47vh;
+    padding: 5px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .instagram .demo {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    padding-bottom: 66px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -36,12 +36,13 @@ body {
    
   }
   
+
   .dark-mode {
     background-color: black;
     color: white;
     transition: background-color .4s ease;
 
-
+ 
         .dark-mode .nav-bar a{
             color: white;
         }
@@ -212,24 +213,27 @@ body {
     top :60px;
 
     h1{
-        font-size:48px ;
+        font-size: 46px;
         font-family: "JosefinSans-Regular";
-        font-weight: bolder;
         color: #000;
         font-weight: 700;
         margin-top: 45px;
-        line-height: 1.1;
+        line-height: 55px;
        
     }
 
     p{
-        font-size: 23px;
-        font-family: "JosefinSans-Regular";
-        font-weight: 580;
-        line-height: 1.4;
-        padding-top: 6px;
-        padding-bottom: 10px;
-        line-height: 1.1;
+            font-size: 21px;
+            font-family: "JosefinSans-Regular";
+            font-weight: 400;
+            line-height: 1.4;
+            padding-top: 6px;
+            padding-bottom: 10px;
+            line-height: 25px;
+            color: #000;
+        
+
+        
 
     }
 
@@ -240,7 +244,7 @@ body {
         text-decoration: none;
         font-family: "JosefinSans-Regular";
         font-size: 16px;
-        padding: 10px 17px;
+        padding: 11px 18px;
         
     }
 
@@ -252,12 +256,12 @@ body {
         font-family: "JosefinSans-Regular";
         font-weight: bold;
         font-size: 17px;
-        padding: 7px 4px;
+        padding: 8px 5px;
         border-left: 6px solid #742296;
         border-right: 6px solid #742296;
         border-bottom: 3px solid #742296;
         border-top: 3px solid #742296;
-        margin-left: 30px;
+        margin-left: 37px;
         
     }
 
@@ -266,7 +270,7 @@ body {
    
 
     img{
-    width: 180px;
+    width: 182px;
     height: 70vh;
     object-fit: cover;
     padding-right: 13px;
@@ -296,7 +300,10 @@ body {
             margin: 10px 0 0 0;
             color:#742296;
             font-family: "JosefinSans-Regular";
-            font-size: 18px;
+            line-height: 17px;
+            font-weight: 400;
+            font-size: 19px;
+
 
             display: flex;
             align-items: center;
@@ -317,6 +324,7 @@ body {
         color:#000;
         font-family: "JosefinSans-Regular";
         font-size: 17px;
+        line-height: 21px;
 
         display: flex;
         align-items: end;
@@ -385,7 +393,7 @@ h2{
     .hi{
         position: absolute;
         height: 64vh;
-        width: 34%;
+        width: 32%;
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
@@ -402,11 +410,12 @@ h2{
 
 
      .gun{
-        padding-left: 33px;
+        padding-left: 38px;
 
 
         .nato{
-            height: 58vh;
+            height: 58.3vh;
+            width: 395.2px;
            
          }
 
@@ -480,8 +489,8 @@ h2{
         background-image: url(images/WhatsApp\ Image\ 2024-05-03\ at\ 00.13.55.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 26.7%;
-        height: 78vh;
+        width:303px;
+        height: 74vh;
         position: relative;
         
 
@@ -489,8 +498,9 @@ h2{
 
         .good{
 
-            height: 78vh;
-            width:100.4%;
+            width:303px;
+            height: 74vh;
+            // width:100.4%;
             display: flex;
             align-items: end;
             justify-content:end ;
@@ -526,8 +536,8 @@ h2{
         margin: 0 23px;
         background-color: #742296;
         color: white;
-        width: 26.6%;
-        height: 78vh;
+        width:303px;
+        height: 74vh;
         padding: 20px 15px;
         position: relative;
 
@@ -536,8 +546,8 @@ h2{
 
         .more{
 
-            height: 74.9vh;
-            width:96.92%;
+            width: 298px;
+            height: 75vh;
             display: flex;
             align-items: end;
             justify-content:end ;
@@ -546,10 +556,10 @@ h2{
               
          img{
             object-fit: contain;
-            width: 13.9%;
-            height: 6.4vh;
+            width: 12.9%;
+            height: 13.9vh;
             opacity: 70%;
-            margin-right:3.2px;
+            margin-right: 9.2px;
          
          }
     
@@ -604,8 +614,8 @@ h2{
         background-image: url(images/WhatsApp\ Image\ 2024-05-03\ at\ 00.13.57\ \(1\).jpeg);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 26.7%;
-        height: 78vh;
+        width:303px;
+        height: 74vh;
         position: relative;
 
       
@@ -631,8 +641,8 @@ h2{
    
 
     .bad{
-        height: 78vh;
-        width:100.4%;
+        height: 74vh;
+        width: 303px;
         display: flex;
         align-items: end;
         justify-content:end ;
@@ -654,7 +664,7 @@ h2{
                 font-family: "JosefinSans-Regular";
                 font-weight: bolder;
                 padding-right: 70px;
-                margin-bottom: 6px;
+                margin-bottom: 12px;
 
             }
 
@@ -834,7 +844,7 @@ p{
     background-color: #742296;
     color: white;
     overflow-x: hidden;
-    padding: 25px 0px  23px 0;
+    padding: 25px 0px  0px 0;
     width: 100%;
 
     
@@ -943,9 +953,8 @@ p{
     
         
             img{
-                padding-left: 85px;
-                width: 26%;
-         
+                padding-left: 91px;
+                width: 25%;
             }
 
         }
@@ -965,37 +974,109 @@ p{
     padding: 5px 0px 30px 65px;
 
  .text{
-  h1{
-        font-size:31px ;
-        margin-top: 25px;
+//   h1{
+//         font-size:31px ;
+//         margin-top: 25px;
        
-    }
+//     }
 
-    p{
+//     p{
        
-        font-size: 14px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+//         font-size: 14px;
+//         padding-top: 10px;
+//         padding-bottom: 10px;
 
-    }
+//     }
 
 
-    .dis{
-        font-size: 13px;
-        padding: 10px 16px;
+//     .dis{
+//         font-size: 13px;
+//         padding: 10px 16px;
         
-    }
+//     }
 
     
-    .kok{
-        font-size: 13px;
-        padding: 7px 3px;
-        margin-left: 30px;
+//     .kok{
+//         font-size: 13px;
+//         padding: 7px 3px;
+//         margin-left: 30px;
         
-    }
+//     }
 
- }
-    img{
+//  }
+//     img{
+//     width: 130px;
+//     height: 26vh;
+//     object-fit: cover;
+//     padding-right: 13px;
+    
+        
+//     }
+
+//     .image-life{
+//         display: flex;
+//         justify-content: baseline;
+
+//         .pic1, .pic3{
+//             margin-top: 56px;
+//         }
+
+h1{
+    font-size: 35px;
+    font-family: "JosefinSans-Regular";
+    color: #000;
+    font-weight: 700;
+    margin-top: 20px;
+    line-height: 42px;
+}
+   
+  
+  
+  p{
+    font-size: 17px;
+    font-family: "JosefinSans-Regular";
+    font-weight: 400;
+    line-height: 1.4;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    line-height: 25px;
+    color: #000;
+    
+  
+    
+  
+  }
+  
+  
+  .dis{
+    background-color: #742296;
+    color: white;
+    text-decoration: none;
+    font-family: "JosefinSans-Regular";
+    font-size: 13px;
+    padding: 11px 18px;
+    
+  }
+  
+  
+  .kok{
+    background-color: white;
+    color: #000;
+    text-decoration: none;
+    font-family: "JosefinSans-Regular";
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 5px;
+    border-left: 6px solid #742296;
+    border-right: 6px solid #742296;
+    border-bottom: 3px solid #742296;
+    border-top: 3px solid #742296;
+    margin-left: 22px;
+    
+  }
+  
+}
+      img{
     width: 130px;
     height: 26vh;
     object-fit: cover;
@@ -1011,8 +1092,58 @@ p{
         .pic1, .pic3{
             margin-top: 56px;
         }
-      
+
+  
     }
+  
+      
+    .fill{
+     
+
+        p:first-of-type {
+            margin: 10px 0 0 0;
+            color:#742296;
+            font-family: "JosefinSans-Regular";
+            line-height: 17px;
+            font-weight: 400;
+            font-size: 19px;
+    
+    
+            display: flex;
+            align-items: center;
+         
+             
+        }
+    
+        i{
+            color: #000;
+            padding: 0  10px 0 0;
+            font-size: 28px;
+        }
+    
+    
+    p:last-of-type  {
+        margin: 5px 0 0 0;
+       
+        color:#000;
+        font-family: "JosefinSans-Regular";
+        font-size: 17px;
+        line-height: 21px;
+    
+        display: flex;
+        align-items: end;
+          
+    }
+    
+    
+    i{
+        font-size: 26px;
+        font-weight: 100;
+    }
+    
+    
+    }
+     
 
 
 
@@ -1053,41 +1184,41 @@ p{
 // }
 
 
-.fill{
+// .fill{
      
 
-    p:first-of-type {
-        margin: 10px 0 0 0;
+//     p:first-of-type {
+//         margin: 10px 0 0 0;
         
-        font-size: 15px;
+//         font-size: 15px;
 
-        display: flex;
-        align-items: center;
+//         display: flex;
+//         align-items: center;
      
          
-    }
+//     }
 
-    i{
-        color: #000;
-        padding: 0  10px 0 0;
-        font-size: 28px;
-    }
+//     i{
+//         color: #000;
+//         padding: 0  10px 0 0;
+//         font-size: 28px;
+//     }
 
 
-p:last-of-type  {
-    margin: 5px 0 0 0;
+// p:last-of-type  {
+//     margin: 5px 0 0 0;
    
    
-    font-size: 15px;
-}
+//     font-size: 15px;
+// }
 
-margin: 15px 0 0 0;
+// margin: 15px 0 0 0;
 
-i{
-    font-size: 26px;
-    font-weight: 100;
-}
-}
+// i{
+//     font-size: 26px;
+//     font-weight: 100;
+// }
+// }
  
 
 }
@@ -1131,13 +1262,13 @@ i{
     
 
     .hi{
-        height: 24vh;
-        width: 32%;
+        height: 22vh;
+        width: 321px;
      
 
        
      .deep{
-        height: 4vh;  
+        height: 3vh;  
     }
 
     }
@@ -1149,6 +1280,8 @@ i{
 
         .nato{
             height: 20vh;
+            object-fit: cover;
+            width: 325px;
            
          }
 
@@ -1198,7 +1331,7 @@ i{
 
 
     .now{
-        width: 30%;
+        width: 295px;
         height: 30vh;
 
 
@@ -1234,7 +1367,7 @@ i{
         margin: 0 20px;
         background-color: #742296;
         color: white;
-        width: 30%;
+        width: 295px;
         height: 30vh;
         padding: 20px 15px;
         position: relative;
@@ -1293,7 +1426,7 @@ i{
         background-image: url(images/WhatsApp\ Image\ 2024-05-03\ at\ 00.13.57\ \(1\).jpeg);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 30%;
+        width: 295px;
         height: 30vh;
         position: relative;
 
@@ -1312,7 +1445,7 @@ i{
         img{
             object-fit: contain;
             margin-left: 20px;
-            width: 13.6%;
+            width: 13%;
             height: 2.5vh;
          }
     
@@ -1366,6 +1499,10 @@ i{
     margin-bottom: 0;
 }
 
+.isdo .for3 p:last-of-type {
+    font-size: 15px;
+}
+
 
 // end main
 .instagram{
@@ -1376,9 +1513,11 @@ i{
   .demo{
     
       img{
-          width: 12%;
-          height: 20vh;
-          padding: 5px;
+          
+        width: 12%;
+        height: 20vh;
+        padding: 5px;
+        object-fit: cover;
       }
 
       
@@ -1680,84 +1819,11 @@ i{
     .text{
     top :60px;
     
- 
-    h1{
-        font-size:26px ;
-        margin-top: 15px;
-       
-    }
 
-    p{
-        font-size: 10px;
-        line-height: 1.4;
-        padding-top: 0px;
-        padding-bottom: 10px;
-        margin: 0;
-
-    }
-
-
-    .dis{
-
-        font-size: 10px;
-        padding: 9px 14px;
-        
-    }
-
-    
-    .kok{
-        font-size: 10px;
-        padding: 7px 3px;
-        margin-left: 21px;
-        
-    }
-
-    
-  .fill{
-     
-
-    p:first-of-type {
-        margin: 10px 0 0 0;
-        color:#742296;
-        font-family: "JosefinSans-Regular";
-        font-size: 13px;
-
-        display: flex;
-        align-items: center;
-     
-         
-    }
-
-    i{
-        color: #000;
-        padding: 0  10px 0 0;
-        font-size: 22px;
-    }
-
-
-p:last-of-type  {
-    margin: 5px 0 0 0;
-   
-    color:#000;
-    font-family: "JosefinSans-Regular";
-    font-size: 12px;
-
-    display: flex;
-    align-items: end;
-      
 }
-
-
-i{
-    font-size: 22px;
-    font-weight: 100;
-}
-}
-
-    }
     img{
-    width: 98px;
-    height: 27vh;
+    width: 100px;
+    height: 29vh;
     padding-right: 13px;
     
         
@@ -1772,48 +1838,79 @@ i{
       
     }
 
-  .fill{
 
-       span{
-
-        margin: 15px 0 0 0;
-        font-size: 12px;
-        padding-top: 10px;
-
-      }
-
-
-    p{
-    
-        margin: 15px 0 0 0;
-        font-size: 12px;
-        padding-top: 4px;
-
-        i{
-            font-size: 24px;
-            padding-bottom: 15px;
-        }
-         
-    }
-
-    span{
-        margin: 15px 0 0 0;
-        font-size: 13px;
-         
-    }
-
-    i{
-        padding: 0  10px 0 0;
-        font-size: 24px;
-    }
-
-}
 
 }
 
 
+// still banner
+.banner .text h1 {
+    font-size: 25px;
+    font-family: "JosefinSans-Regular";
+    color: #000;
+    font-weight: 700;
+    margin-top: 10px;
+    line-height: 36px;
+}
 
 
+.banner .text p {
+    font-size: 14px;
+    font-family: "JosefinSans-Regular";
+    font-weight: 400;
+    line-height: 1.4;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    line-height: 25px;
+    margin-bottom: 4px;
+}
+
+
+.banner .text .dis {
+    background-color: #742296;
+    color: white;
+    text-decoration: none;
+    font-family: "JosefinSans-Regular";
+    font-size: 11px;
+    padding: 11px 18px;
+}
+
+.banner .text .kok {
+    background-color: white;
+    color: #000;
+    text-decoration: none;
+    font-family: "JosefinSans-Regular";
+    font-weight: bold;
+    font-size: 11px;
+    padding: 8px 5px;
+    border-left: 6px solid #742296;
+    border-right: 6px solid #742296;
+    border-bottom: 3px solid #742296;
+    border-top: 3px solid #742296;
+    margin-left: 22px;
+}
+
+.banner .fill p:first-of-type {
+    margin: 10px 0 0 0;
+    color: #742296;
+    font-family: "JosefinSans-Regular";
+    line-height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .fill p:last-of-type {
+    margin: 5px 0 0 0;
+    color: #000;
+    font-family: "JosefinSans-Regular";
+    font-size: 11px;
+    line-height: 10px;
+    display: flex;
+    align-items: end;
+}
+// end
 
 
 .about{
@@ -1847,11 +1944,7 @@ h2{
         margin-bottom: 17px;
     }
 
-        p{
-   
-            font-size: 10px;
-            margin-bottom: 13px;
-        }
+      
         
     
 
@@ -1869,38 +1962,45 @@ h2{
     }
 
 
-     .gun{
-        padding-left: 25px;
-
-
-        .nato{
-            height: 24vh;
-           
-         }
-
-
-      p{
-        padding-top: 13px ;
-        padding-bottom: 15px;
-     }
-
-     
-
-     a{
-        font-size: 16px;
-        padding: 11px 11px;
-     }
-
-
-    }
 
  
 }
 
 }
 
+// about 
+
+.about .container .gun .nato {
+    height: 26.3vh;
+    width: 296.2px;
+    object-fit: cover;
+}
 
 
+.about .container p {
+    font-size: 11px;
+    margin-bottom: 13px;
+}
+
+
+.about .container .gallery img {
+    height: 18vh;
+}
+
+
+p {
+    padding-top: 15px;
+    padding-bottom: 11px;
+    font-weight: 590;
+}
+
+
+.about h2 {
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+// end
 
 .services{
     padding: 60px 47px;
@@ -1946,7 +2046,7 @@ h2{
          }
     
             h5{
-                font-size: 15px;
+                font-size: 18px;
                 padding-right: 17px;
                 margin-bottom: 24px;
             }
@@ -1992,7 +2092,7 @@ h2{
       }
 
       li{
-        font-size: 10px;
+        font-size: 11px;
         padding: 0px;
         
 
@@ -2000,7 +2100,9 @@ h2{
             width: 50px;
           }
     
-    
+    p{
+        padding: 0;
+    }
 
       }
 
@@ -2037,9 +2139,10 @@ h2{
     
             h5{
                
-                font-size: 15px;
-                padding-right: 28px;
-                margin-bottom: 27px;;
+                font-size: 18px;
+                padding-right: 55px;
+                margin-bottom: 33px;
+            
 
             }
 
@@ -2068,7 +2171,7 @@ h2{
 .main .get p {
     font-size: 16px;
     font-weight: 550;
-    margin: 15px 0;
+    margin: 0px 0;
 }
 
 .main h2 {
@@ -2077,6 +2180,12 @@ h2{
     font-family: "JosefinSans-Regular";
     font-weight: bolder;
     margin-bottom: 0;
+}
+
+.main .get p:first-of-type {
+    font-family: "JosefinSans-Regular";
+    font-weight: 500;
+    margin: -5px 0;
 }
 
 
@@ -2124,62 +2233,6 @@ h2{
     margin-left: 20PX;
 
 }
-// .main{
-//     padding: 60px 0 0 47px  ;
-
-//     .more{
-    
-   
-
-//     .very{
-//         margin-right: 70px;
-//     }
-   
-    
-//     }
-
-//     img{
-//         height: 21vh;
-//         width: 100%;
-//         object-fit: cover;
-      
-//     }
-
-//     p{
-//         font-size: 11px;
-//         margin: 11px 0;
-//     }
-
-
-//     h3{
-//         font-size: 14px;
-//         margin: 15px 0;
-       
-//     }
-
-//     span{
-//         font-size: 13.3px;
-//         margin: 15px 0;
-//     }
-
-//     h2{
-//         font-size: 15px;
-//         margin-bottom: 0;
-       
-//     }
-
-//     .food{
-//         margin-top: 45px;
-//     }
-
-//     .find{
-//         margin-top: -11px;
-//     }
-
-   
-// }
-
-
 
 .instagram{
       padding: 30px;
@@ -2225,62 +2278,21 @@ h2{
 }
 
 
-
-.isdo{
-   
-    padding: 25px 0px  23px 0;
-    width: 100%;
-
-    
-   
-
-    img{
-        width: 50%;
-        padding-bottom: 10px;
-
-    }
-
-    h6{
-        font-size: 14px;
-    }
-
-    p{
-        
-      font-size: 10px;
-      margin-bottom: 15px;
-
-    }
-
-.first{
-
-  p{
-    margin-bottom: 3px;
-  }
-
-    .shame{
-        margin-left: 37px;
-        margin-bottom: 15px;
-        
-     }
-
-
-    i{
-        font-size: 26px;
-        padding-right: 25px;
-    }
-
+// footer
+.isdo h6 {
+    font-family: "JosefinSans-Regular";
+    font-weight: bolder;
+    margin-bottom: 0;
+    font-size: 15px;
 }
 
 
-.forth{
-    i{
-        font-size: 20px;
-        padding-right: 18px;
-    }
+.isdo p {
+    font-family: "JosefinSans-Regular";
+    font-size: 12px;
+    margin-bottom: -19px;
 }
-
-}
-
+// end
 
 }
 
@@ -2292,14 +2304,14 @@ h2{
 
 
     .main-nav{
-        padding: 20px 0 0 0;
+        padding: 20px 25px 0 0;
         
     
         img{
             height: 7vh;
             width: 100%;
             object-fit: contain;
-            margin-left: -5px;
+            margin-left: 15px;
             
         }
     
@@ -2355,8 +2367,8 @@ h2{
         
     }
       span{
-        margin: auto;
-        margin-right: 20px;
+        // margin: auto;
+        margin-right: 30px;
         display: flex;
       
       
@@ -2405,41 +2417,24 @@ h2{
         font-size: 60px;
       }
     }
-    
+
+    .banner .fill p:first-of-type {
+        margin: 17px 0 0 0;
+        font-size: 12px;
+    }
 
     .banner{
-        padding: 5px 0px 30px 12px;
+        padding: 5px 0px 30px 27px;
         
     
         .text{
         position: relative;
-        top :60px;
+        top :20px;
     
-        h1{
-            margin-top: -30px;
-            font-size: 29px;
-           
+        .fill p:first-of-type {
+            margin: 23px 0 0 0;
+            font-size: 12px;
         }
-    
-        p{
-            font-size: 13px;
-            padding-top: 6px;
-            padding-bottom: 0px;
-        }
-    
-    
-           .dis{
-        font-size: 10px;
-        padding: 7px 12px;
-        
-    }
-
-    
-    .kok{
-        font-size: 9px;
-        padding: 4px 6px;
-        margin-left: 16px;
-        
     }
 
     
@@ -2448,8 +2443,8 @@ h2{
        
     
         img{
-            width: 122px;
-            height: 42vh;
+        width: 166px;
+        height: 56vh;
         object-fit: cover;
         padding-right: 13px;
         
@@ -2458,10 +2453,14 @@ h2{
     
         .image-life{
             display: flex;
-            padding-top: 75px;
+            padding-top: 53px;
     
-            .pic1, .pic3{
+            .pic1, {
                 margin-top: 30px;
+            }
+
+            .pic3{
+                display: none;
             }
 
             .pic4{
@@ -2507,7 +2506,72 @@ h2{
     }
 
 
+// banner
+.banner .text h1 {
+    font-size: 32px;
+    font-family: "JosefinSans-Regular";
+    color: #000;
+    font-weight: 700;
+    margin-top: 0px;
+    line-height: 37px;
+}
 
+.banner .text p {
+    font-size: 14px;
+    font-family: "JosefinSans-Regular";
+    font-weight: 400;
+    line-height: 1.4;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    line-height: 23px;
+   margin-bottom: 6px;
+}
+
+.banner .text .kok {
+    background-color: white;
+    color: #000;
+    text-decoration: none;
+    font-family: "JosefinSans-Regular";
+    font-weight: bold;
+    font-size: 13px;
+    padding: 8px 5px;
+    border-left: 6px solid #742296;
+    border-right: 6px solid #742296;
+    border-bottom: 3px solid #742296;
+    border-top: 3px solid #742296;
+    margin-left: 15px;
+}
+
+
+.banner .text .dis {
+    background-color: #742296;
+    color: white;
+    text-decoration: none;
+    font-family: "JosefinSans-Regular";
+    font-size: 12px;
+    padding: 11px 18px;
+}
+
+.banner .fill p:last-of-type {
+    margin: 5px 0 0 0;
+    color: #000;
+    font-family: "JosefinSans-Regular";
+    font-size: 17px;
+    line-height: 10px;
+    display: flex;
+    align-items: end;
+}
+
+.banner .fill p:last-of-type {
+    margin: 5px 0 0 0;
+    color: #000;
+    font-family: "JosefinSans-Regular";
+    font-size: 12px;
+    line-height: 10px;
+    display: flex;
+    align-items: end;
+}
+// end
 
     
 .about{
@@ -2533,7 +2597,7 @@ h2{
         display: flex;
         
         img{
-            height:32vh;
+            height:30.5vh;
             margin-bottom: 15px;
         }
         
@@ -2549,7 +2613,7 @@ h2{
     }
 
         p{
-            font-size: 14px;
+            font-size: 12px;
             margin-bottom: 17px;
          
         }
@@ -2576,23 +2640,18 @@ h2{
 
      .gun{
         padding-left: 0px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         
-
-
         .nato{
-            height: 45vh;
+            height: 41vh;
            
          }
 
 
       p{
-        padding-top: 13px ;
+        padding-top: 12px ;
         padding-bottom: 16px;
         margin: 0;
-        font-size: 15px;
+        font-size: 12px;
      }
 
      
@@ -2615,10 +2674,13 @@ h2{
 }
 
  
-
+.about .container .gun .nato {
+    height: 42.3vh;
+    width: 317.2px;
+}
 
 .main{
-    padding: 60px 65px 0 12px  ;
+    padding: 60px 65px 0 22px  ;
   
 h2{
     font-size: 20px;
@@ -2654,8 +2716,9 @@ h2{
          background-repeat: no-repeat;
          background-size: cover;
          object-fit: contain;
-         width: 351px;
-         height: 43vh;
+         width: 322px;
+         height: 40vh;
+     
 
 
          .late{
@@ -2674,8 +2737,9 @@ h2{
          background-image: url("/images/WhatsApp Image 2024-05-02 at 07.24.13.jpeg");
          background-repeat: no-repeat;
          background-size: cover;
-         width: 351px;
-         height: 43vh;
+         width: 322px;
+         height: 40vh;
+     
 
          .visa{
              
@@ -2696,7 +2760,7 @@ h2{
 
 p{
 
-     font-size: 14px;
+     font-size: 12px;
      margin: 15px 0;
 
 }
@@ -3819,4 +3883,208 @@ width: 50%;
     }
 
   }
+}
+
+
+
+
+@media only screen and (min-width: 1399.98px) {
+
+    .main-nav .nav-bar img {
+        padding-left: 85px;
+        width: 26%;
+    }
+
+    .banner img {
+        width: 194px;
+        height: 61vh;
+        -o-object-fit: cover;
+        object-fit: contain;
+        padding-right: 13px;
+    }
+
+    .banner .text h1 {
+        font-size: 46px;
+        font-family: "JosefinSans-Regular";
+        color: #000;
+        font-weight: 700;
+        margin-top: 72px;
+        line-height: 55px;
+    }
+
+    // about section
+    .about .container .gun {
+        margin-left: 40px;
+    }
+
+    .about .container .gun .nato {
+        height: 49.3vh;
+        width: 467.2px;
+    }
+
+    .about .container .gallery img {
+        height: 40vh;
+    }
+
+    .about .container p {
+        font-family: "JosefinSans-Regular";
+        font-size: 17px;
+        margin-bottom: 10px;
+        font-weight: 580;
+    }
+
+    .rong {
+        margin-left: 35px;
+        
+    }
+
+    .about .container .hi {
+        position: absolute;
+        height: 54vh;
+        width: 32%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .container .gun {
+        margin-left: 24px;
+    }
+
+    // end
+
+    // services
+
+    .services .now {
+        width: 363px;
+        height: 70vh;
+        position: relative;
+    }
+
+    .services .foni {
+        width: 363px;
+        height: 70vh;
+        position: relative;
+    }
+
+    .services .super {
+
+        width: 363px;
+        height: 70vh;
+        position: relative;
+    }
+
+    .services .bad {
+        height: 70vh;
+        width: 363px;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        position: absolute;
+    }
+
+    .services .now .good {
+        height: 70vh;
+        width: 363px;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        position: absolute;
+    }
+
+    .services .super h3 {
+        font-size: 28px;
+        font-family: "JosefinSans-Regular";
+        margin-left: 4px;
+    }
+
+    .services .super p{
+        font-size: 20px;
+        padding: 2px;
+    }
+
+    .services .super .more {
+        width: 356px;
+        height: 75vh;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        position: absolute;
+    }
+
+    .services .super .more img {
+        -o-object-fit: contain;
+        object-fit: contain;
+        width: 12.9%;
+        height: 20.6vh;
+        opacity: 70%;
+        margin-right: 5.2px;
+    
+    }
+
+    .services .bad img {
+        -o-object-fit: contain;
+        object-fit: contain;
+        margin-left: 20px;
+        width: 13.6%;
+        height: 6.3vh;
+    }
+
+    .services .now .good img {
+        -o-object-fit: contain;
+        object-fit: contain;
+        margin-left: 20px;
+        width: 13.6%;
+        height: 6.3vh;
+    }
+
+    .services .bad h5 {
+        font-size: 27px;
+        color: white;
+        font-family: "JosefinSans-Regular";
+        font-weight: bolder;
+        padding-right: 106px;
+        margin-bottom: 18px;
+    }
+
+    .services .now .good h5 {
+        font-size: 28px;
+        color: white;
+        font-family: "JosefinSans-Regular";
+        font-weight: bolder;
+        padding-right: 70px;
+        margin-bottom: 9px;
+    }
+
+    // end
+
+    // main
+
+    .main .get .kim1 {
+        width: 515px;
+        height: 56vh;
+    }
+
+    .main .get .kim2 {
+        width: 515px;
+        height: 56vh;
+    }
+
+    // end
+
+    // instagram
+    .instagram .demo img {
+        width: 12%;
+        height: 47vh;
+        padding: 5px;
+        object-fit: cover;
+    }
+
+    .instagram .demo {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        padding-bottom: 66px;
+    }
 }
