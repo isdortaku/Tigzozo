@@ -56,6 +56,15 @@ body {
 .dark-mode i {
   color: white;
 }
+.dark-mode .banner .text p {
+  color: white;
+}
+.dark-mode .banner .fill i {
+  color: white;
+}
+.dark-mode .now i {
+  color: white;
+}
 
 .main-nav {
   padding: 20px;
@@ -1284,7 +1293,7 @@ body {
 }
 @media (max-width: 575.98px) {
   .main-nav .nav-bar {
-    margin-right: 0px;
+    margin-right: 119px;
   }
   .main-nav {
     padding: 20px 25px 0 0;
@@ -1297,7 +1306,7 @@ body {
     margin-left: 15px;
   }
   .main-nav .nav-bar {
-    margin-right: 160px;
+    margin-right: 139px;
   }
   .main-nav .nav-bar a {
     display: none;
@@ -1317,8 +1326,8 @@ body {
     width: 0;
     position: fixed;
     z-index: 1;
-    right: 0px;
-    top: 0;
+    left: 0px;
+    top: 0px;
     background-color: #FEFDED;
     overflow-x: hidden;
     transition: 0.5s;
@@ -1330,8 +1339,10 @@ body {
     right: 143px;
   }
   .main-nav span {
+    position: relative;
     margin-right: 30px;
     display: flex;
+    right: 5px;
   }
   .main-nav .overlay-content {
     position: absolute;
@@ -1373,6 +1384,10 @@ body {
   .banner .text {
     position: relative;
     top: 20px;
+  }
+  .banner .text .fill p:first-of-type {
+    margin: 23px 0 0 0;
+    font-size: 12px;
   }
   .banner img {
     width: 166px;
@@ -1490,11 +1505,12 @@ body {
     display: flex;
   }
   .about .container .gallery img {
-    height: 30.5vh;
+    height: 29.5vh;
     margin-bottom: 15px;
+    margin-right: 13px;
   }
   .about .container .gallery .natural {
-    margin-top: 40px;
+    margin-top: 0px;
   }
   .about .container .gala {
     margin-bottom: 17px;
@@ -1828,17 +1844,6 @@ body {
   }
   .main-nav span {
     display: none;
-  }
-}
-@media (max-width: 575px) {
-  body {
-    overflow-x: hidden;
-  }
-  .main-nav .overlay {
-    display: flex;
-  }
-  .main-nav span {
-    display: flex;
   }
 }
 @media only screen and (min-width: 1399.98px) {
