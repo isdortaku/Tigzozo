@@ -122,12 +122,14 @@ body {
   right: 0px;
   top: 0;
   background-color: #435585;
+  position: absolute;
   overflow-x: hidden;
   transition: 0.5s;
 }
 .main-nav span {
   margin: auto;
   margin-right: 35px;
+  position: absolute;
 }
 .main-nav .overlay-content {
   position: absolute;
@@ -1380,6 +1382,15 @@ body {
     font-size: 12px;
     margin-bottom: -19px;
   }
+  .isdo {
+    background-color: #742296;
+    color: white;
+    overflow-x: hidden;
+    padding: 25px 0px 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 @media (max-width: 575.98px) {
   .main-nav .nav-bar {
@@ -1427,6 +1438,7 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
     display: flex;
+    position: absolute;
   }
   .main-nav .hero {
     position: absolute;
@@ -1464,7 +1476,10 @@ body {
     font-size: 60px;
   }
   .main-nav .overlay a:hover, .main-nav .overlay a:focus {
-    color: #f1f1f1;
+    background-color: red;
+    color: #742296;
+    padding: 5px 10px;
+    border-radius: 20px;
   }
   .main-nav .overlay .closebtn {
     position: absolute;
@@ -1927,6 +1942,23 @@ body {
     font-size: 7px;
     padding: 7px 12px;
   }
+  .services .super .more img {
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: 13%;
+    height: 6vh;
+    opacity: 79%;
+    margin-right: 3.2px;
+  }
+  .services {
+    padding: 12px 27px;
+  }
+  .instagram .kill p {
+    padding-top: 6px;
+    font-size: 17px;
+    font-family: "JosefinSans-Regular";
+    font-weight: bolder;
+  }
 }
 @media (min-width: 414px) and (max-width: 500px) {
   .main-nav {
@@ -2010,6 +2042,9 @@ body {
     height: 3.8vh;
     margin-left: 20PX;
   }
+  .services {
+    padding: 10px 27px;
+  }
   .services .super {
     margin: 20px 0;
     background-color: #742296;
@@ -2089,6 +2124,30 @@ body {
     background-color: #742296;
     padding: 7px 11px;
     color: white;
+  }
+  .instagram .kill p {
+    padding-top: 9px;
+    font-size: 17px;
+    font-family: "JosefinSans-Regular";
+    font-weight: bolder;
+  }
+  .instagram .kill p {
+    padding-top: 9px;
+    font-size: 17px;
+    font-family: "JosefinSans-Regular";
+    font-weight: bolder;
+  }
+  .services .super li {
+    font-size: 12px;
+    padding: 0px;
+  }
+  .services .super .more img {
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: 14%;
+    height: 6.5vh;
+    opacity: 57%;
+    margin-right: 0.2px;
   }
 }
 @media (min-width: 1366px) {
@@ -2312,7 +2371,7 @@ body {
     object-fit: contain;
     width: 12.9%;
     height: 5.6vh;
-    opacity: 100%;
+    opacity: 70%;
     margin-right: 5.2px;
   }
   .services .bad h5 {

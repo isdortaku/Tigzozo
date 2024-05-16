@@ -171,6 +171,7 @@ body {
     right: 0px;
     top: 0;
     background-color:#435585; 
+    position: absolute;
  
     overflow-x: hidden; 
     transition: 0.5s; 
@@ -180,6 +181,7 @@ body {
   span{
     margin: auto;
     margin-right: 35px;
+    position: absolute;
   }
   
   .overlay-content {
@@ -2176,6 +2178,16 @@ p {
     margin-bottom: -19px;
 }
 
+.isdo {
+    background-color: #742296;
+    color: white;
+    overflow-x: hidden;
+    padding: 25px 0px 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 }
 
 @media (max-width: 575.98px) { 
@@ -2246,9 +2258,12 @@ p {
         overflow-x: hidden; 
         transition: 0.5s; 
         display: flex;
+        position: absolute;
     
       }
       
+
+
     .hero{
         position: absolute;
         top: 54px;
@@ -2287,6 +2302,9 @@ p {
         transition: 0.3s; 
       }
 
+      
+//    /
+
 
     //   burger menu
       .main-nav .overlay .closebtn {
@@ -2299,7 +2317,10 @@ p {
       
       
       .overlay a:hover, .overlay a:focus {
-        color: #f1f1f1;
+        background-color:red;
+        color:#742296;
+        padding: 5px 10px;
+        border-radius: 20px;
       }
       
       
@@ -3005,6 +3026,29 @@ width: 50%;
   }
 
 }
+
+
+.services .super .more img {
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: 13%;
+    height: 6vh;
+    opacity: 79%;
+    margin-right: 3.2px;
+}
+
+
+.services {
+    padding: 12px 27px;
+}
+
+.instagram .kill p {
+    padding-top: 6px;
+    font-size: 17px;
+    font-family: "JosefinSans-Regular";
+    font-weight: bolder;
+}
+
 }
 
 
@@ -3106,6 +3150,11 @@ width: 50%;
         margin-left: 20PX;
     }
 
+
+    .services {
+        padding: 10px 27px;
+    }
+
     .services .super {
         margin: 20px 0;
         background-color: #742296;
@@ -3197,6 +3246,34 @@ width: 50%;
         color: white;
     }
 
+    .instagram .kill p {
+        padding-top: 9px;
+        font-size: 17px;
+        font-family: "JosefinSans-Regular";
+        font-weight: bolder;
+    }
+
+
+    .instagram .kill p {
+        padding-top: 9px;
+        font-size: 17px;
+        font-family: "JosefinSans-Regular";
+        font-weight: bolder;
+    }
+
+    .services .super li {
+        font-size: 12px;
+        padding: 0px;
+    }
+
+    .services .super .more img {
+        -o-object-fit: contain;
+        object-fit: contain;
+        width: 14%;
+        height: 6.5vh;
+        opacity: 57%;
+        margin-right: 0.2px;
+    }
 
 }
 
@@ -3521,7 +3598,7 @@ width: 50%;
         object-fit: contain;
         width: 12.9%;
         height: 5.6vh;
-        opacity: 100%;
+        opacity: 70%;
         margin-right: 5.2px;
     }
 
