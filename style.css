@@ -1477,7 +1477,7 @@ body {
   }
   .main-nav .overlay a:hover, .main-nav .overlay a:focus {
     background-color: red;
-    color: #742296;
+    color: #f5f5f5;
     padding: 5px 10px;
     border-radius: 20px;
   }
