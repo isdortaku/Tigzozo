@@ -600,28 +600,20 @@ h2{
             position: absolute;
 
               
-         img{
-            position: relative;
-            -o-object-fit: contain;
-            object-fit: contain;
-            width: 16.9%;
-            height: 6.9vh;
-            opacity: 100%;
-            margin-right: 3.2px;
-         }
+    
 
-
-        i{
+        
+         i {
             position: absolute;
-            font-size: 17px;
-            background-color: #742296;
-            border-radius: 50%;
-            padding: 5px 7px;
-            color: white;
+            font-size: 19px;
+            background-color: #EAECCC;
+            border-radius: 0%;
+            padding: 8px 13px;
+            color: purple;
             z-index: 1;
-            margin-right: 14px;
-            margin-bottom: 10px;
-         }
+            margin-right: 9px;
+            margin-bottom: 6px;
+        }
 
       
     
@@ -684,12 +676,7 @@ h2{
 
     }
 
-    // .foni:before {
-    //     content: attr(class);
-    //     // font-size: 2em;
-    //     color: white;
-    //     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
-    //   }
+    
 
    
       .foni:before {
@@ -856,16 +843,6 @@ p{
 
 
 
-.services .super .more img {
-    position: relative;
-    -o-object-fit: contain;
-    object-fit: contain;
-    width: 16.7%;
-    height: 6vh;
-    opacity: 100%;
-    margin-right: 4.2px;
-    margin-bottom: 6px;
-}
 
 
 .instagram{
@@ -1349,27 +1326,20 @@ h1{
             width:100%;
            
 
-              
-         img{
-            object-fit: contain;
-            width: 61px;
-            height: 3vh;
-            opacity: 100%;
-            margin-right:4px;
-         
-         }
-
-         i {
-            position: absolute;
-            font-size: 17px;
-            background-color: #742296;
-            border-radius: 50%;
-            padding: 5px 7px;
-            color: white;
-            z-index: 1;
-            margin-right: 20px;
-            margin-bottom: 6px;
-        }
+            i {
+                position: absolute;
+                font-size: 20px;
+                background-color: white;
+                border-radius: 0%;
+                padding: 8px 13px;
+                color: purple;
+                z-index: 1;
+                margin-right: 14px;
+                margin-bottom: -2px;
+            
+            }
+    
+          
     
 
         }
@@ -1620,7 +1590,7 @@ h1{
 
 
 
-@media   (min-width: 576px) and (max-width: 991px) {
+@media only screen and   (min-width: 576px) and (max-width: 991px) {
 
 
     
@@ -1935,27 +1905,19 @@ p {
            
 
               
-         img{
-            object-fit: contain;
-            width: 18%;
-            height: 5.1vh;
-            opacity: 100%;
-            margin-right:1px;
-         
-         }
-
-          i {
-            position: absolute;
-            font-size: 17px;
-            background-color: #742296;
-            border-radius: 50%;
-            padding: 5px 7px;
-            color: white;
-            z-index: 1;
-            margin-right: 6px;
-            margin-bottom: 12px;
-        }
+            i {
+                position: absolute;
+                font-size: 19px;
+                background-color: #EAECCC;
+                border-radius: 0%;
+                padding: 9px 13px;
+                color: purple;
+                z-index: 1;
+                margin-right: 1px;
+                margin-bottom: 9px;
+            }
     
+          
 
         }
 
@@ -2248,8 +2210,10 @@ p {
         img{
             height: 7vh;
             width: 100%;
+            -o-object-fit: contain;
             object-fit: contain;
-            margin-left: 17px;
+            margin-left: -7px;
+        
             
         }
     
@@ -2461,7 +2425,7 @@ p {
 
 // banner
 .banner .text h1 {
-    font-size: 28px;
+    font-size: 32px;
     margin-top: 0px;
     line-height: 32px;
 }
@@ -2817,27 +2781,19 @@ p{
                 justify-content: end;
                 position: absolute;
             
+                i {
+                    position: absolute;
+                    font-size: 19px;
+                    background-color: #EAECCC;
+                    border-radius: 0%;
+                    padding: 8px 13px;
+                    color: purple;
+                    z-index: 1;
+                    margin-right: 4px;
+                    margin-bottom: 7px;
+                }
+        
               
-         img{
-            object-fit: contain;
-            width: 13%;
-            height: 6vh;
-            opacity: 100%;
-            margin-right:3.2px;
-         
-         }
-
-         i {
-            position: absolute;
-            font-size: 17px;
-            background-color: #742296;
-            border-radius: 50%;
-            padding: 5px 7px;
-            color: white;
-            z-index: 1;
-            margin-right: 7px;
-            margin-bottom: 9px;
-        }
     
 
         }
@@ -3088,7 +3044,7 @@ width: 50%;
 }
 
 
-@media (min-width: 414px) and (max-width:500px) {
+@media  only sreen and (min-width: 414px) and (max-width:500px) {
 
 
     .main-nav {
@@ -3201,23 +3157,8 @@ width: 50%;
         position: relative;
     }
 
-    .services .super .more img {
-        -o-object-fit: contain;
-        object-fit: contain;
-        width: 13%;
-        height: 5.80vh;
-        opacity: 100%;
-        margin-right: 1.2px;
-    }
+    
 
-    .services .super .more img {
-        -o-object-fit: contain;
-        object-fit: contain;
-        width: 13%;
-        height: 5.80vh;
-        opacity: 100%;
-        margin-right: 1.2px;
-    }
 
     .services .now {
         width: 81%;
@@ -3229,34 +3170,22 @@ width: 50%;
         width: 100%;
     }
 
-    .services .super .more img {
-        -o-object-fit: contain;
-        object-fit: contain;
-        width: 14%;
-        height: 6.5vh;
-        opacity: 100%;
-        margin-right: 0.2px;
+    
+
+  
+    .services .super .more  i {
+        position: absolute;
+        font-size: 19px;
+        background-color: #EAECCC;
+        border-radius: 0%;
+        padding: 8px 13px;
+        color: purple;
+        z-index: 1;
+        margin-right: 2px;
+        margin-bottom: 4px;
     }
 
-    .services .super .more {
-        height: 50.9vh;
-        width: 94.9%;
-        display: flex;
-        align-items: end;
-        justify-content: end;
-        position: absolute;
-    }
-    .services .super .more i {
-        position: absolute;
-        font-size: 17px;
-        background-color: #742296;
-        border-radius: 50%;
-        padding: 5px 7px;
-        color: white;
-        z-index: 1;
-        margin-right: 5px;
-        margin-bottom: 7px;
-    }
+      
 
     .services .foni {
         width: 81%;
@@ -3520,24 +3449,7 @@ width: 50%;
         padding: 2px;
     }
 
-    .services .super .more {
-        width: 356px;
-        height: 75vh;
-        display: flex;
-        align-items: end;
-        justify-content: end;
-        position: absolute;
-    }
-
-    .services .super .more img {
-        -o-object-fit: contain;
-        object-fit: contain;
-        width: 12.9%;
-        height: 20.6vh;
-        opacity: 70%;
-        margin-right: 5.2px;
-    
-    }
+   
 
     .services .bad img {
         -o-object-fit: contain;
@@ -3629,14 +3541,7 @@ width: 50%;
         position: absolute;
     }
 
-    .services .super .more img {
-        -o-object-fit: contain;
-        object-fit: contain;
-        width: 12.9%;
-        height: 5.6vh;
-        opacity: 70%;
-        margin-right: 5.2px;
-    }
+  
 
 
     .services .bad h5 {
@@ -3658,28 +3563,20 @@ width: 50%;
 
    
 
-    .services .super .more img {
-        position: relative;
-        -o-object-fit: contain;
-        object-fit: contain;
-        width: 16.9%;
-        height: 6vh;
-        opacity: 100%;
-        margin-right: 3.2px;
-        margin-bottom: 5px;
-    }
-
     .services .super .more i {
         position: absolute;
-        font-size: 18px;
-        background-color: #742296;
-        border-radius: 50%;
-        padding: 5px 7px;
-        color: white;
+        font-size: 20px;
+        background-color: #EAECCC;
+        border-radius: 0%;
+        padding: 8px 13px;
+        color: purple;
         z-index: 1;
-        margin-right: 18px;
-        margin-bottom: 14px;
-    }
+        margin-right: 11.0px;
+        margin-bottom: 3px;
+    
+        }
+
+      
 }
 
 
@@ -3960,190 +3857,199 @@ width: 50%;
 
 
 
-@media only screen and (min-width: 766px) and (max-width:767.9px) {
+// @media only screen and (min-width: 766px) and (max-width:767.9px) {
 
-    .banner .row > * {
-        flex-shrink: 0;
-        width: 45%;
-        max-width: 100%;
-        padding-right: calc(var(--bs-gutter-x)* 0.5);
-        padding-left: calc(var(--bs-gutter-x)* 0.5);
-        margin-top: var(--bs-gutter-y);
-    }
-    .banner img {
-        width: 98px;
-        height: 48vh;
-        padding-right: 10px;
-    }
+//     .banner .row > * {
+//         flex-shrink: 0;
+//         width: 45%;
+//         max-width: 100%;
+//         padding-right: calc(var(--bs-gutter-x)* 0.5);
+//         padding-left: calc(var(--bs-gutter-x)* 0.5);
+//         margin-top: var(--bs-gutter-y);
+//     }
+//     .banner img {
+//         width: 98px;
+//         height: 48vh;
+//         padding-right: 10px;
+//     }
 
-    .banner .text h1 {
-        font-size: 29px;
-        margin-top: 0px;
-        line-height: 31px;
-        margin-bottom: 5px;
-    }
+//     .banner .text h1 {
+//         font-size: 29px;
+//         margin-top: 0px;
+//         line-height: 31px;
+//         margin-bottom: 5px;
+//     }
 
-    .banner .text p {
-        font-size: 12px;
-        font-family: "JosefinSans-Regular";
-        font-weight: 400;
-        line-height: 1.4;
-        padding-top: 0px;
-        padding-bottom: 7px;
-        line-height: 17px;
-        margin-bottom: 4px;
-    }
+//     .banner .text p {
+//         font-size: 12px;
+//         font-family: "JosefinSans-Regular";
+//         font-weight: 400;
+//         line-height: 1.4;
+//         padding-top: 0px;
+//         padding-bottom: 7px;
+//         line-height: 17px;
+//         margin-bottom: 4px;
+//     }
 
-    .main-nav .nav-bar img {
-        padding-left: 58px;
-        width: 23%;
-    }
+//     .main-nav .nav-bar img {
+//         padding-left: 58px;
+//         width: 23%;
+//     }
 
 
-    .container .row>* {
-        flex-shrink: 0;
-        width: 50%;
-        max-width: 100%;
-        padding-right: calc(var(--bs-gutter-x)* .5);
-        padding-left: calc(var(--bs-gutter-x)* .5);
-        margin-top: var(--bs-gutter-y);
-    }
+//     .container .row>* {
+//         flex-shrink: 0;
+//         width: 50%;
+//         max-width: 100%;
+//         padding-right: calc(var(--bs-gutter-x)* .5);
+//         padding-left: calc(var(--bs-gutter-x)* .5);
+//         margin-top: var(--bs-gutter-y);
+//     }
 
-    .about .container .gallery img {
-        height: 33.3vh;
-    }
+//     .about .container .gallery img {
+//         height: 33.3vh;
+//     }
 
-    .about .container .gun #video {
-        width: 283px;
-        height: 195px;
-    }
+//     .about .container .gun #video {
+//         width: 283px;
+//         height: 195px;
+//     }
 
-    .about .container p {
-        font-size: 10px;
-        margin-bottom: 13px;
-        padding-top: 1px;
-    }
+//     .about .container p {
+//         font-size: 10px;
+//         margin-bottom: 13px;
+//         padding-top: 1px;
+//     }
 
-    .services .now {
-        width: 33%;
-        height: 63vh;
-        position: relative;
-    }
+//     .services .now {
+//         width: 33%;
+//         height: 63vh;
+//         position: relative;
+//     }
 
-        .services .foni {
-            width: 33%;
-            height: 63vh;
-            position: relative;
-        }
+//         .services .foni {
+//             width: 33%;
+//             height: 63vh;
+//             position: relative;
+//         }
 
-    .about .container p {
-        font-size: 9px;
-        margin-bottom: 13px;
-        padding-top: 1px;
-    }
+//     .about .container p {
+//         font-size: 9px;
+//         margin-bottom: 13px;
+//         padding-top: 1px;
+//     }
 
-    .services .bad {
-        height: 63vh;
-        width: 100%;
-    }
+//     .services .bad {
+//         height: 63vh;
+//         width: 100%;
+//     }
 
-    .services .now .good {
-        height: 63vh;
-        width: 100%;
-    }
+//     .services .now .good {
+//         height: 63vh;
+//         width: 100%;
+//     }
 
-    .services .super {
-        margin: 0 20px;
-        width: 33%;
-        height: 63vh;
-        padding: 20px 15px;
-        position: relative;
-    }
-    .services .super .more {
-        height: 60.4vh;
-        width: 96%;
-    }
+//     .services .super {
+//         margin: 0 20px;
+//         width: 33%;
+//         height: 63vh;
+//         padding: 20px 15px;
+//         position: relative;
+//     }
+//     .services .super .more {
+//         height: 60.4vh;
+//         width: 96%;
+//     }
 
-    .services .super li {
-        font-size: 9px;
-        padding: 0px;
-    }
+//     .services .super li {
+//         font-size: 9px;
+//         padding: 0px;
+//     }
 
-    .services .super h4 {
-        font-size: 9px;
-    }
+//     .services .super h4 {
+//         font-size: 9px;
+//     }
 
-    .services .super h3 {
-        font-size: 11px;
-        padding: 0;
-    }
+//     .services .super h3 {
+//         font-size: 11px;
+//         padding: 0;
+//     }
 
-    .main .get .kim2 {
-        width: 256px;
-        height: 43vh;
-    }
+//     .main .get .kim2 {
+//         width: 256px;
+//         height: 43vh;
+//     }
 
-    .main .get .kim1 {
-        width: 278px;
-        height: 42vh;
-    }
+//     .main .get .kim1 {
+//         width: 278px;
+//         height: 42vh;
+//     }
 
-    .main .get p {
-        font-size: 11px;
-        font-weight: 550;
-        margin: 0px 0;
-        line-height: 16px;
-        padding-top: 8px;
-    }
+//     .main .get p {
+//         font-size: 11px;
+//         font-weight: 550;
+//         margin: 0px 0;
+//         line-height: 16px;
+//         padding-top: 8px;
+//     }
 
-    .instagram .demo img {
-        width: 13%;
-        height: 36vh;
-        padding: 3px;
-        -o-object-fit: cover;
-        object-fit: cover;
-    }
-    .isdo .first p {
-        margin-bottom: 3px;
-    }
+//     .instagram .demo img {
+//         width: 13%;
+//         height: 36vh;
+//         padding: 3px;
+//         -o-object-fit: cover;
+//         object-fit: cover;
+//     }
+//     .isdo .first p {
+//         margin-bottom: 3px;
+//     }
 
-    .services .super .more i {
-        position: absolute;
-        font-size: 12px;
-        background-color: #742296;
-        border-radius: 50%;
-        padding: 5px 7px;
-        color: white;
-        z-index: 1;
-        margin-right: 9px;
-        margin-bottom: 13px;
-    }
+//     .services .super .more i {
+        
+//             position: absolute;
+//             font-size: 19px;
+//             background-color: #EAECCC;
+//             border-radius: 0%;
+//             padding: 8px 13px;
+//             color: purple;
+//             z-index: 1;
+//             margin-right: 9px;
+//             margin-bottom: 6px;
+//         }
 
-    .isdo .first .shame {
-        margin-left: 37px;
-        margin-bottom: 2px;
-    }
+      
 
-    .isdo .first .shame {
-        margin-left: 37px;
-        margin-bottom: 2px;
-    }
+//     .isdo .first .shame {
+//         margin-left: 37px;
+//         margin-bottom: 2px;
+//     }
 
-    .main-nav span {
-        margin: auto;
-        margin-right: 35px;
-        position: absolute;
-        display: none;
-    }
+//     .isdo .first .shame {
+//         margin-left: 37px;
+//         margin-bottom: 2px;
+//     }
 
-    .services .super .more img {
-        -o-object-fit: contain;
-        object-fit: contain;
-        width: 18%;
-        height: 7vh;
-        opacity: 100%;
-        margin-right: 6px;
-    }
+//     .main-nav span {
+//         margin: auto;
+//         margin-right: 35px;
+//         position: absolute;
+//         display: none;
+//     }
+
+//     .services .super .more img {
+//         -o-object-fit: contain;
+//         object-fit: contain;
+//         width: 18%;
+//         height: 7vh;
+//         opacity: 100%;
+//         margin-right: 6px;
+//     }
 
     
+// }
+
+
+
+@media only screen and (min-width: 425px) and (max-width:556px) {
+
 }
