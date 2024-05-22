@@ -2059,6 +2059,10 @@ h1{
 
     @media (min-width: 576px) and (max-width: 991px) {
 
+        body{
+            overflow-x: hidden;
+        }
+
     
     .main-nav{
         padding: 20px;
@@ -2717,10 +2721,11 @@ h1{
 
 
 
-@media  only screen and (max-width:575.98px) {
+@media   (max-width:575.98px) {
 
     body{
         overflow-x: hidden;
+       
     }
 
 
@@ -2802,11 +2807,12 @@ h1{
         right: 143px;
         
     }
+
       span{
         position: relative;
         margin-right: 30px;
         display: flex;
-        right: 5px;
+        right: 11px;
       
       
       }
@@ -2820,6 +2826,8 @@ h1{
        
         
       }
+
+    
       
       .fas{
         font-size: 25px;
@@ -2839,7 +2847,7 @@ h1{
 
 
     //   burger menu
-      .main-nav .overlay .closebtn {
+      .overlay .closebtn {
         position: absolute;
         top: -33px;
         right: 8px;
@@ -2953,6 +2961,7 @@ h1{
     
     }
 
+    
 
 // banner
 .banner .text h1 {
